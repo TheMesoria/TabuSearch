@@ -9,25 +9,23 @@
 #include <vector>
 #include <memory>
 
-using Map = std::shared_ptr<std::shared_ptr<unsigned>>;
-using CoordMap = std::vector<std::pair<float,float>>;
+using Map = std::vector<std::vector<unsigned>>;
+using CoordMap = std::vector<std::pair<double,double>>;
 
 class FileLoader
 {
 	std::vector <Map> availableMapVector_;
 	std::vector <CoordMap> availableCoordMapVector_;
 public:
-	const std::vector<Map>          &getAvailableMapVector()        const;
-	const std::vector<CoordMap>     &getAvailableCoordMapVector()   const;
-
 	void addMap(std::string path);
+	void loadPointedMap(CoordMap coordMap);
+	void loadCoordPoints(std::fstream& file);
 	
 public:
-	FileLoader();
-	~FileLoader();
+	FileLoader() = default;
+	~FileLoader() = default;
 
-	Map operator[](size_t pos);
-	CoordMap operator()(size_t pos);
+	Map operator[](size_t pos) const;
 };
 
 #endif //PEA2_FILELOADER_HPP

@@ -3,11 +3,12 @@
 
 int main() 
 {
-    FileLoader fileLoader;
-    std::vector<Map> temp = fileLoader.getAvailableMapVector();
-	if(temp.size() == 0)
+	Map map;
 	{
-		std::cout << "FUCK";
+		FileLoader fileLoader;
+		fileLoader.addMap("../resources/a280.tsp");
+		map = fileLoader[0];
 	}
+
     return EXIT_SUCCESS;
 }

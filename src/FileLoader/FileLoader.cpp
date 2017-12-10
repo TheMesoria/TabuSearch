@@ -3,38 +3,56 @@
 //
 #include "FileLoader.hpp"
 #include <fstream>
+#include <cmath>
+#include <iostream>
 
-
-FileLoader::FileLoader()
+Map FileLoader::operator[](size_t pos) const
 {
+    return this->availableMapVector_[pos];
 }
 
-
-FileLoader::~FileLoader()
-{
-}
-
-const std::vector<Map> &FileLoader::getAvailableMapVector() const
-{
-    return this->availableMapVector_;
-}
-
-const std::vector<CoordMap> &FileLoader::getAvailableCoordMapVector() const
-{
-    return this->availableCoordMapVector_;
-}
-
-Map FileLoader::operator[](size_t pos)
-{
-    return Map();
-}
-
-CoordMap FileLoader::operator()(size_t pos)
-{
-    return CoordMap();
-}
 void FileLoader::addMap(std::string path)
 {
 	std::fstream file(path,std::ios::in);
     if(!file.good()) return;
+	while(true)
+	{
+		std::string tmp;
+		std::getline(file,tmp);
+		std::cout<<tmp<<std::endl;
+		if(tmp=="NODE_COORD_SECTION")
+		{
+			loadCoordPoints(file);
+			loadPointedMap(availableCoordMapVector_.back());
+			break;
+		}
+	}
+}
+
+void FileLoader::loadPointedMap(CoordMap coordMap)
+{
+	Map tmpMap;
+	for(auto coord : coordMap )
+	{
+		std::vector<unsigned> tmp;
+		for(auto testCoord : coordMap)
+		{
+			auto result = sqrt(pow(testCoord.first-coord.first, 2)+pow(testCoord.second-coord.second,2));
+			tmp.push_back(static_cast<unsigned int>(result));
+		}
+		tmpMap.push_back(tmp);
+	}
+	
+	this->availableMapVector_.push_back(tmpMap);
+}
+void FileLoader::loadCoordPoints(std::fstream &file)
+{
+	unsigned name;
+	double coordX, coordY;
+	CoordMap coordMap;
+	while(file >> name >> coordX >> coordY)
+	{
+		coordMap.emplace_back(coordX,coordY);
+	}
+	this->availableCoordMapVector_.emplace_back(coordMap);
 }
