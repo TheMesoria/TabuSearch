@@ -9,12 +9,28 @@
 D:/Projects/PEA2/src/FileLoader/FileLoader.cpp
 FileLoader.hpp
 D:/Projects/PEA2/src/FileLoader/FileLoader.hpp
+fstream
+-
+cmath
+-
+iostream
+-
 
 D:/Projects/PEA2/src/FileLoader/FileLoader.hpp
 vector
 -
 memory
 -
+
+D:/Projects/PEA2/src/algorithms/TabuSearch/TabuSearch.cpp
+TabuSearch.hpp
+D:/Projects/PEA2/src/algorithms/TabuSearch/TabuSearch.hpp
+
+D:/Projects/PEA2/src/algorithms/TabuSearch/TabuSearch.hpp
+memory
+-
+../../FileLoader/FileLoader.hpp
+D:/Projects/PEA2/src/FileLoader/FileLoader.hpp
 
 D:/Projects/PEA2/src/main.cpp
 iostream

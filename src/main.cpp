@@ -10,5 +10,5 @@ int main()
 		map = fileLoader[0];
 	}
 
-    return EXIT_SUCCESS;
+	return EXIT_SUCCESS;
 }

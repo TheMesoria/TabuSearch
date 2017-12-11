@@ -149,6 +149,60 @@ src/FileLoader/FileLoader.cpp.s:
 	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/src/FileLoader/FileLoader.cpp.s
 .PHONY : src/FileLoader/FileLoader.cpp.s
 
+src/algorithms/TabuHolder.obj: src/algorithms/TabuHolder.cpp.obj
+
+.PHONY : src/algorithms/TabuHolder.obj
+
+# target to build an object file
+src/algorithms/TabuHolder.cpp.obj:
+	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.obj
+.PHONY : src/algorithms/TabuHolder.cpp.obj
+
+src/algorithms/TabuHolder.i: src/algorithms/TabuHolder.cpp.i
+
+.PHONY : src/algorithms/TabuHolder.i
+
+# target to preprocess a source file
+src/algorithms/TabuHolder.cpp.i:
+	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.i
+.PHONY : src/algorithms/TabuHolder.cpp.i
+
+src/algorithms/TabuHolder.s: src/algorithms/TabuHolder.cpp.s
+
+.PHONY : src/algorithms/TabuHolder.s
+
+# target to generate assembly for a file
+src/algorithms/TabuHolder.cpp.s:
+	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.s
+.PHONY : src/algorithms/TabuHolder.cpp.s
+
+src/algorithms/TabuSearch/TabuSearch.obj: src/algorithms/TabuSearch/TabuSearch.cpp.obj
+
+.PHONY : src/algorithms/TabuSearch/TabuSearch.obj
+
+# target to build an object file
+src/algorithms/TabuSearch/TabuSearch.cpp.obj:
+	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj
+.PHONY : src/algorithms/TabuSearch/TabuSearch.cpp.obj
+
+src/algorithms/TabuSearch/TabuSearch.i: src/algorithms/TabuSearch/TabuSearch.cpp.i
+
+.PHONY : src/algorithms/TabuSearch/TabuSearch.i
+
+# target to preprocess a source file
+src/algorithms/TabuSearch/TabuSearch.cpp.i:
+	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.i
+.PHONY : src/algorithms/TabuSearch/TabuSearch.cpp.i
+
+src/algorithms/TabuSearch/TabuSearch.s: src/algorithms/TabuSearch/TabuSearch.cpp.s
+
+.PHONY : src/algorithms/TabuSearch/TabuSearch.s
+
+# target to generate assembly for a file
+src/algorithms/TabuSearch/TabuSearch.cpp.s:
+	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.s
+.PHONY : src/algorithms/TabuSearch/TabuSearch.cpp.s
+
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -188,6 +242,12 @@ help:
 	@echo ... src/FileLoader/FileLoader.obj
 	@echo ... src/FileLoader/FileLoader.i
 	@echo ... src/FileLoader/FileLoader.s
+	@echo ... src/algorithms/TabuHolder.obj
+	@echo ... src/algorithms/TabuHolder.i
+	@echo ... src/algorithms/TabuHolder.s
+	@echo ... src/algorithms/TabuSearch/TabuSearch.obj
+	@echo ... src/algorithms/TabuSearch/TabuSearch.i
+	@echo ... src/algorithms/TabuSearch/TabuSearch.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

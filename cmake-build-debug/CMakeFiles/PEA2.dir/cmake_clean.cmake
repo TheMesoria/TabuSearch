@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/PEA2.dir/src/main.cpp.obj"
   "CMakeFiles/PEA2.dir/src/FileLoader/FileLoader.cpp.obj"
+  "CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj"
+  "CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.obj"
   "PEA2.pdb"
   "PEA2.exe"
   "PEA2.exe.manifest"

@@ -104,21 +104,73 @@ CMakeFiles/PEA2.dir/src/FileLoader/FileLoader.cpp.obj.provides: CMakeFiles/PEA2.
 CMakeFiles/PEA2.dir/src/FileLoader/FileLoader.cpp.obj.provides.build: CMakeFiles/PEA2.dir/src/FileLoader/FileLoader.cpp.obj
 
 
+CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: CMakeFiles/PEA2.dir/flags.make
+CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/algorithms/TabuSearch/TabuSearch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\PEA2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PEA2.dir\src\algorithms\TabuSearch\TabuSearch.cpp.obj -c D:\Projects\PEA2\src\algorithms\TabuSearch\TabuSearch.cpp
+
+CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\PEA2\src\algorithms\TabuSearch\TabuSearch.cpp > CMakeFiles\PEA2.dir\src\algorithms\TabuSearch\TabuSearch.cpp.i
+
+CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\PEA2\src\algorithms\TabuSearch\TabuSearch.cpp -o CMakeFiles\PEA2.dir\src\algorithms\TabuSearch\TabuSearch.cpp.s
+
+CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj.requires:
+
+.PHONY : CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj.requires
+
+CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj.provides: CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj.provides.build
+.PHONY : CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj.provides
+
+CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj.provides.build: CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj
+
+
+CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.obj: CMakeFiles/PEA2.dir/flags.make
+CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.obj: ../src/algorithms/TabuHolder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\PEA2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PEA2.dir\src\algorithms\TabuHolder.cpp.obj -c D:\Projects\PEA2\src\algorithms\TabuHolder.cpp
+
+CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\PEA2\src\algorithms\TabuHolder.cpp > CMakeFiles\PEA2.dir\src\algorithms\TabuHolder.cpp.i
+
+CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\PEA2\src\algorithms\TabuHolder.cpp -o CMakeFiles\PEA2.dir\src\algorithms\TabuHolder.cpp.s
+
+CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.obj.requires:
+
+.PHONY : CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.obj.requires
+
+CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.obj.provides: CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.obj.provides.build
+.PHONY : CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.obj.provides
+
+CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.obj.provides.build: CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.obj
+
+
 # Object files for target PEA2
 PEA2_OBJECTS = \
 "CMakeFiles/PEA2.dir/src/main.cpp.obj" \
-"CMakeFiles/PEA2.dir/src/FileLoader/FileLoader.cpp.obj"
+"CMakeFiles/PEA2.dir/src/FileLoader/FileLoader.cpp.obj" \
+"CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj" \
+"CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.obj"
 
 # External object files for target PEA2
 PEA2_EXTERNAL_OBJECTS =
 
 PEA2.exe: CMakeFiles/PEA2.dir/src/main.cpp.obj
 PEA2.exe: CMakeFiles/PEA2.dir/src/FileLoader/FileLoader.cpp.obj
+PEA2.exe: CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj
+PEA2.exe: CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.obj
 PEA2.exe: CMakeFiles/PEA2.dir/build.make
 PEA2.exe: CMakeFiles/PEA2.dir/linklibs.rsp
 PEA2.exe: CMakeFiles/PEA2.dir/objects1.rsp
 PEA2.exe: CMakeFiles/PEA2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Projects\PEA2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable PEA2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Projects\PEA2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable PEA2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PEA2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +180,8 @@ CMakeFiles/PEA2.dir/build: PEA2.exe
 
 CMakeFiles/PEA2.dir/requires: CMakeFiles/PEA2.dir/src/main.cpp.obj.requires
 CMakeFiles/PEA2.dir/requires: CMakeFiles/PEA2.dir/src/FileLoader/FileLoader.cpp.obj.requires
+CMakeFiles/PEA2.dir/requires: CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj.requires
+CMakeFiles/PEA2.dir/requires: CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.obj.requires
 
 .PHONY : CMakeFiles/PEA2.dir/requires
 

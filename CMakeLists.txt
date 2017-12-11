@@ -8,4 +8,4 @@ add_executable(
         src/main.cpp
         src/FileLoader/FileLoader.cpp
         src/FileLoader/FileLoader.hpp
-)
+        src/algorithms/TabuSearch/TabuSearch.cpp src/algorithms/TabuSearch/TabuSearch.hpp src/algorithms/TabuHolder.cpp src/algorithms/TabuHolder.hpp)
