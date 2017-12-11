@@ -59,39 +59,39 @@ CMAKE_SOURCE_DIR = D:\Projects\PEA2
 CMAKE_BINARY_DIR = D:\Projects\PEA2\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/PEA2.dir
+# Target rules for target CMakeFiles/pea.dir
 
 # All Build rule for target.
-CMakeFiles/PEA2.dir/all:
-	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/depend
-	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Projects\PEA2\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target PEA2"
-.PHONY : CMakeFiles/PEA2.dir/all
+CMakeFiles/pea.dir/all:
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/depend
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Projects\PEA2\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target pea"
+.PHONY : CMakeFiles/pea.dir/all
 
 # Include target in all.
-all: CMakeFiles/PEA2.dir/all
+all: CMakeFiles/pea.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/PEA2.dir/rule: cmake_check_build_system
+CMakeFiles/pea.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\PEA2\cmake-build-debug\CMakeFiles 5
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/PEA2.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/pea.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\PEA2\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/PEA2.dir/rule
+.PHONY : CMakeFiles/pea.dir/rule
 
 # Convenience name for target.
-PEA2: CMakeFiles/PEA2.dir/rule
+pea: CMakeFiles/pea.dir/rule
 
-.PHONY : PEA2
-
-# clean rule for target.
-CMakeFiles/PEA2.dir/clean:
-	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/clean
-.PHONY : CMakeFiles/PEA2.dir/clean
+.PHONY : pea
 
 # clean rule for target.
-clean: CMakeFiles/PEA2.dir/clean
+CMakeFiles/pea.dir/clean:
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/clean
+.PHONY : CMakeFiles/pea.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/pea.dir/clean
 
 .PHONY : clean
 

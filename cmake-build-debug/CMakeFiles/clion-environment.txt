@@ -1,4 +1,4 @@
-ToolSet: 5.0@C:\MinGW
+ToolSet: w64 3.3@D:\Depos\MinGW
 Options: 
 
 Options:

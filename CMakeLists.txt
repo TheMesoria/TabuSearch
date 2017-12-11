@@ -4,7 +4,7 @@ project(PEA2)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(
-        PEA2
+        pea
         src/main.cpp
         src/FileLoader/FileLoader.cpp
         src/FileLoader/FileLoader.hpp

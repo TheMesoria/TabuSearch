@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named PEA2
+# Target rules for targets named pea
 
 # Build rule for target.
-PEA2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 PEA2
-.PHONY : PEA2
+pea: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 pea
+.PHONY : pea
 
 # fast build rule for target.
-PEA2/fast:
-	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/build
-.PHONY : PEA2/fast
+pea/fast:
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/build
+.PHONY : pea/fast
 
 src/FileLoader/FileLoader.obj: src/FileLoader/FileLoader.cpp.obj
 
@@ -128,7 +128,7 @@ src/FileLoader/FileLoader.obj: src/FileLoader/FileLoader.cpp.obj
 
 # target to build an object file
 src/FileLoader/FileLoader.cpp.obj:
-	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/src/FileLoader/FileLoader.cpp.obj
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.obj
 .PHONY : src/FileLoader/FileLoader.cpp.obj
 
 src/FileLoader/FileLoader.i: src/FileLoader/FileLoader.cpp.i
@@ -137,7 +137,7 @@ src/FileLoader/FileLoader.i: src/FileLoader/FileLoader.cpp.i
 
 # target to preprocess a source file
 src/FileLoader/FileLoader.cpp.i:
-	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/src/FileLoader/FileLoader.cpp.i
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.i
 .PHONY : src/FileLoader/FileLoader.cpp.i
 
 src/FileLoader/FileLoader.s: src/FileLoader/FileLoader.cpp.s
@@ -146,7 +146,7 @@ src/FileLoader/FileLoader.s: src/FileLoader/FileLoader.cpp.s
 
 # target to generate assembly for a file
 src/FileLoader/FileLoader.cpp.s:
-	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/src/FileLoader/FileLoader.cpp.s
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.s
 .PHONY : src/FileLoader/FileLoader.cpp.s
 
 src/algorithms/TabuHolder.obj: src/algorithms/TabuHolder.cpp.obj
@@ -155,7 +155,7 @@ src/algorithms/TabuHolder.obj: src/algorithms/TabuHolder.cpp.obj
 
 # target to build an object file
 src/algorithms/TabuHolder.cpp.obj:
-	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.obj
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/TabuHolder.cpp.obj
 .PHONY : src/algorithms/TabuHolder.cpp.obj
 
 src/algorithms/TabuHolder.i: src/algorithms/TabuHolder.cpp.i
@@ -164,7 +164,7 @@ src/algorithms/TabuHolder.i: src/algorithms/TabuHolder.cpp.i
 
 # target to preprocess a source file
 src/algorithms/TabuHolder.cpp.i:
-	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.i
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/TabuHolder.cpp.i
 .PHONY : src/algorithms/TabuHolder.cpp.i
 
 src/algorithms/TabuHolder.s: src/algorithms/TabuHolder.cpp.s
@@ -173,7 +173,7 @@ src/algorithms/TabuHolder.s: src/algorithms/TabuHolder.cpp.s
 
 # target to generate assembly for a file
 src/algorithms/TabuHolder.cpp.s:
-	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.s
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/TabuHolder.cpp.s
 .PHONY : src/algorithms/TabuHolder.cpp.s
 
 src/algorithms/TabuSearch/TabuSearch.obj: src/algorithms/TabuSearch/TabuSearch.cpp.obj
@@ -182,7 +182,7 @@ src/algorithms/TabuSearch/TabuSearch.obj: src/algorithms/TabuSearch/TabuSearch.c
 
 # target to build an object file
 src/algorithms/TabuSearch/TabuSearch.cpp.obj:
-	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj
 .PHONY : src/algorithms/TabuSearch/TabuSearch.cpp.obj
 
 src/algorithms/TabuSearch/TabuSearch.i: src/algorithms/TabuSearch/TabuSearch.cpp.i
@@ -191,7 +191,7 @@ src/algorithms/TabuSearch/TabuSearch.i: src/algorithms/TabuSearch/TabuSearch.cpp
 
 # target to preprocess a source file
 src/algorithms/TabuSearch/TabuSearch.cpp.i:
-	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.i
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.i
 .PHONY : src/algorithms/TabuSearch/TabuSearch.cpp.i
 
 src/algorithms/TabuSearch/TabuSearch.s: src/algorithms/TabuSearch/TabuSearch.cpp.s
@@ -200,7 +200,7 @@ src/algorithms/TabuSearch/TabuSearch.s: src/algorithms/TabuSearch/TabuSearch.cpp
 
 # target to generate assembly for a file
 src/algorithms/TabuSearch/TabuSearch.cpp.s:
-	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.s
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.s
 .PHONY : src/algorithms/TabuSearch/TabuSearch.cpp.s
 
 src/main.obj: src/main.cpp.obj
@@ -209,7 +209,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/src/main.cpp.obj
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -218,7 +218,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -227,7 +227,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles\PEA2.dir\build.make CMakeFiles/PEA2.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -237,7 +237,7 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... rebuild_cache
-	@echo ... PEA2
+	@echo ... pea
 	@echo ... edit_cache
 	@echo ... src/FileLoader/FileLoader.obj
 	@echo ... src/FileLoader/FileLoader.i

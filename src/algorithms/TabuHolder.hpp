@@ -11,7 +11,7 @@
 
 class TabuHolder
 {
-	//std::mutex lock_;
+	std::mutex lock_;
 	bool done_;
 	bool isRunning_;
 	
@@ -21,7 +21,7 @@ class TabuHolder
 	std::string collectPath();
 public:
 	TabuHolder()
-		: done_{false}
+		: done_{false}, isRunning_{true}
 	{ init(); }
 };
 

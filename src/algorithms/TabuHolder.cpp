@@ -9,11 +9,13 @@
 void TabuHolder::init()
 {
 	static unsigned time = 10; //sec
-	static std::__cxx11::string path = "../resources/a280.tsp";
+	static std::string path = "../resources/a280.tsp";
 	while(isRunning_)
 	{
 		drawUi(path,time);
-		auto input = static_cast<char>(getchar());
+		char input = '0';
+		std::cin >> input;
+		std::cout << input << "\n";
 		switch(input)
 		{
 			case 'q':
@@ -34,7 +36,7 @@ void TabuHolder::init()
 }
 void TabuHolder::drawUi(std::string path, unsigned time)
 {
-	system("cls");
+	//system("clear");
 	std::cout << "Time: " << time << "\nPath: " << path << "\n";
 	std::cout << "1) Set time.\n";
 	std::cout << "2) Choose instance.\n";
@@ -43,19 +45,19 @@ void TabuHolder::drawUi(std::string path, unsigned time)
 }
 unsigned TabuHolder::collectTime()
 {
-	unsigned time;
-	
-	system("cls");
+	//system("clear");
 	std::cout << "Value : " << std::endl;
-	std::cin >> time;
-	return time;
+	return static_cast<unsigned int>(std::cin.get());
 }
 std::string TabuHolder::collectPath()
 {
-	std::__cxx11::string path;
+	std::string path;
 	
-	system("cls");
+	//system("clear");
 	std::cout << "Value : " << std::endl;
+	std::cin.clear();
+	std::cin.sync();
+	std::cin>>path;
 	std::getline(std::cin,path);
 	return path;
 }
