@@ -4,10 +4,13 @@
 CMakeFiles/PEA2.dir/src/FileLoader/FileLoader.cpp.obj: ../src/FileLoader/FileLoader.cpp
 CMakeFiles/PEA2.dir/src/FileLoader/FileLoader.cpp.obj: ../src/FileLoader/FileLoader.hpp
 
+CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.obj: ../src/algorithms/TabuHolder.cpp
+CMakeFiles/PEA2.dir/src/algorithms/TabuHolder.cpp.obj: ../src/algorithms/TabuHolder.hpp
+
 CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/FileLoader/FileLoader.hpp
 CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/algorithms/TabuSearch/TabuSearch.cpp
 CMakeFiles/PEA2.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/algorithms/TabuSearch/TabuSearch.hpp
 
-CMakeFiles/PEA2.dir/src/main.cpp.obj: ../src/FileLoader/FileLoader.hpp
+CMakeFiles/PEA2.dir/src/main.cpp.obj: ../src/algorithms/TabuHolder.hpp
 CMakeFiles/PEA2.dir/src/main.cpp.obj: ../src/main.cpp
 

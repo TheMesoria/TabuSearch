@@ -22,6 +22,22 @@ vector
 memory
 -
 
+D:/Projects/PEA2/src/algorithms/TabuHolder.cpp
+iostream
+-
+string
+-
+TabuHolder.hpp
+D:/Projects/PEA2/src/algorithms/TabuHolder.hpp
+
+D:/Projects/PEA2/src/algorithms/TabuHolder.hpp
+mutex
+-
+thread
+-
+chrono
+-
+
 D:/Projects/PEA2/src/algorithms/TabuSearch/TabuSearch.cpp
 TabuSearch.hpp
 D:/Projects/PEA2/src/algorithms/TabuSearch/TabuSearch.hpp
@@ -35,6 +51,6 @@ D:/Projects/PEA2/src/FileLoader/FileLoader.hpp
 D:/Projects/PEA2/src/main.cpp
 iostream
 -
-FileLoader/FileLoader.hpp
-D:/Projects/PEA2/src/FileLoader/FileLoader.hpp
+algorithms/TabuHolder.hpp
+D:/Projects/PEA2/src/algorithms/TabuHolder.hpp
 

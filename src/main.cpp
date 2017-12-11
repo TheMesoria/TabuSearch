@@ -1,14 +1,8 @@
 #include <iostream>
-#include "FileLoader/FileLoader.hpp"
+#include "algorithms/TabuHolder.hpp"
 
 int main() 
 {
-	Map map;
-	{
-		FileLoader fileLoader;
-		fileLoader.addMap("../resources/a280.tsp");
-		map = fileLoader[0];
-	}
-
+	TabuHolder tabuHolder;
 	return EXIT_SUCCESS;
 }
