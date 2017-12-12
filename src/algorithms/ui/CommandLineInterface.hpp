@@ -19,6 +19,10 @@ private:
 	void drawUi(const string &path, const unsigned &time, const double &aspiration);
 	bool initThread(const string &path, const unsigned &time, const double &aspiration);
 	
+	double getAspiration();
+	unsigned getTime();
+	string getPath();
+	
 };
 
 

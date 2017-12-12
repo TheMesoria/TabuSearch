@@ -4,13 +4,23 @@
 CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.obj: ../src/FileLoader/FileLoader.cpp
 CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.obj: ../src/FileLoader/FileLoader.hpp
 
-CMakeFiles/pea.dir/src/algorithms/TabuHolder.cpp.obj: ../src/algorithms/TabuHolder.cpp
-CMakeFiles/pea.dir/src/algorithms/TabuHolder.cpp.obj: ../src/algorithms/TabuHolder.hpp
-
 CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/FileLoader/FileLoader.hpp
-CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/algorithms/TabuSearch/TabuSearch.cpp
-CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/algorithms/TabuSearch/TabuSearch.hpp
+CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/algorithms/tabusearch/TabuSearch.cpp
+CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/algorithms/tabusearch/TabuSearch.hpp
+CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/algorithms/threading/ThreadManager.hpp
+CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/algorithms/ui/CommandLineInterface.hpp
 
-CMakeFiles/pea.dir/src/main.cpp.obj: ../src/algorithms/TabuHolder.hpp
+CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj: ../src/FileLoader/FileLoader.hpp
+CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj: ../src/algorithms/tabusearch/TabuSearch.hpp
+CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj: ../src/algorithms/threading/ThreadManager.cpp
+CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj: ../src/algorithms/threading/ThreadManager.hpp
+CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj: ../src/algorithms/ui/CommandLineInterface.hpp
+
+CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.obj: ../src/algorithms/threading/ThreadManager.hpp
+CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.obj: ../src/algorithms/ui/CommandLineInterface.cpp
+CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.obj: ../src/algorithms/ui/CommandLineInterface.hpp
+
+CMakeFiles/pea.dir/src/main.cpp.obj: ../src/FileLoader/FileLoader.hpp
+CMakeFiles/pea.dir/src/main.cpp.obj: ../src/algorithms/ui/CommandLineInterface.hpp
 CMakeFiles/pea.dir/src/main.cpp.obj: ../src/main.cpp
 

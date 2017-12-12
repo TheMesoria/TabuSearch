@@ -15,6 +15,8 @@ cmath
 -
 iostream
 -
+string
+-
 
 D:/Projects/PEA2/src/FileLoader/FileLoader.hpp
 vector
@@ -22,37 +24,59 @@ vector
 memory
 -
 
-D:/Projects/PEA2/src/algorithms/TabuHolder.cpp
+D:/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.cpp
+TabuSearch.hpp
+D:/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.hpp
+
+D:/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.hpp
+memory
+-
 iostream
 -
+thread
+-
+../../FileLoader/FileLoader.hpp
+D:/Projects/PEA2/src/FileLoader/FileLoader.hpp
+../threading/ThreadManager.hpp
+D:/Projects/PEA2/src/algorithms/threading/ThreadManager.hpp
+
+D:/Projects/PEA2/src/algorithms/threading/ThreadManager.cpp
+ThreadManager.hpp
+D:/Projects/PEA2/src/algorithms/threading/ThreadManager.hpp
+../../FileLoader/FileLoader.hpp
+D:/Projects/PEA2/src/FileLoader/FileLoader.hpp
+../tabusearch/TabuSearch.hpp
+D:/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.hpp
 thread
 -
 future
 -
-TabuHolder.hpp
-D:/Projects/PEA2/src/algorithms/TabuHolder.hpp
+iostream
+-
 
-D:/Projects/PEA2/src/algorithms/TabuHolder.hpp
+D:/Projects/PEA2/src/algorithms/threading/ThreadManager.hpp
 mutex
 -
-thread
--
-chrono
--
+../ui/CommandLineInterface.hpp
+D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.hpp
 
-D:/Projects/PEA2/src/algorithms/TabuSearch/TabuSearch.cpp
-TabuSearch.hpp
-D:/Projects/PEA2/src/algorithms/TabuSearch/TabuSearch.hpp
-
-D:/Projects/PEA2/src/algorithms/TabuSearch/TabuSearch.hpp
-memory
+D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.cpp
+iostream
 -
-../../FileLoader/FileLoader.hpp
-D:/Projects/PEA2/src/FileLoader/FileLoader.hpp
+CommandLineInterface.hpp
+D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.hpp
+../threading/ThreadManager.hpp
+D:/Projects/PEA2/src/algorithms/threading/ThreadManager.hpp
+
+D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.hpp
+string
+-
 
 D:/Projects/PEA2/src/main.cpp
 iostream
 -
-algorithms/TabuHolder.hpp
-D:/Projects/PEA2/src/algorithms/TabuHolder.hpp
+algorithms/ui/CommandLineInterface.hpp
+D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.hpp
+FileLoader/FileLoader.hpp
+D:/Projects/PEA2/src/FileLoader/FileLoader.hpp
 

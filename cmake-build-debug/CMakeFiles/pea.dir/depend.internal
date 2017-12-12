@@ -4,13 +4,23 @@
 CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.obj
  D:/Projects/PEA2/src/FileLoader/FileLoader.cpp
  D:/Projects/PEA2/src/FileLoader/FileLoader.hpp
-CMakeFiles/pea.dir/src/algorithms/TabuHolder.cpp.obj
- D:/Projects/PEA2/src/algorithms/TabuHolder.cpp
- D:/Projects/PEA2/src/algorithms/TabuHolder.hpp
 CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj
  D:/Projects/PEA2/src/FileLoader/FileLoader.hpp
- D:/Projects/PEA2/src/algorithms/TabuSearch/TabuSearch.cpp
- D:/Projects/PEA2/src/algorithms/TabuSearch/TabuSearch.hpp
+ D:/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.cpp
+ D:/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.hpp
+ D:/Projects/PEA2/src/algorithms/threading/ThreadManager.hpp
+ D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.hpp
+CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj
+ D:/Projects/PEA2/src/FileLoader/FileLoader.hpp
+ D:/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.hpp
+ D:/Projects/PEA2/src/algorithms/threading/ThreadManager.cpp
+ D:/Projects/PEA2/src/algorithms/threading/ThreadManager.hpp
+ D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.hpp
+CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.obj
+ D:/Projects/PEA2/src/algorithms/threading/ThreadManager.hpp
+ D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.cpp
+ D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.hpp
 CMakeFiles/pea.dir/src/main.cpp.obj
- D:/Projects/PEA2/src/algorithms/TabuHolder.hpp
+ D:/Projects/PEA2/src/FileLoader/FileLoader.hpp
+ D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.hpp
  D:/Projects/PEA2/src/main.cpp

@@ -15,6 +15,8 @@ cmath
 -
 iostream
 -
+string
+-
 
 /mnt/d/Projects/PEA2/src/FileLoader/FileLoader.hpp
 vector
@@ -29,20 +31,42 @@ TabuSearch.hpp
 /mnt/d/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.hpp
 memory
 -
+iostream
+-
+thread
+-
 ../../FileLoader/FileLoader.hpp
 /mnt/d/Projects/PEA2/src/FileLoader/FileLoader.hpp
+../threading/ThreadManager.hpp
+/mnt/d/Projects/PEA2/src/algorithms/threading/ThreadManager.hpp
 
 /mnt/d/Projects/PEA2/src/algorithms/threading/ThreadManager.cpp
 ThreadManager.hpp
 /mnt/d/Projects/PEA2/src/algorithms/threading/ThreadManager.hpp
+../../FileLoader/FileLoader.hpp
+/mnt/d/Projects/PEA2/src/FileLoader/FileLoader.hpp
+../tabusearch/TabuSearch.hpp
+/mnt/d/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.hpp
+thread
+-
+future
+-
+iostream
+-
 
 /mnt/d/Projects/PEA2/src/algorithms/threading/ThreadManager.hpp
+mutex
+-
+../ui/CommandLineInterface.hpp
+/mnt/d/Projects/PEA2/src/algorithms/ui/CommandLineInterface.hpp
 
 /mnt/d/Projects/PEA2/src/algorithms/ui/CommandLineInterface.cpp
 iostream
 -
 CommandLineInterface.hpp
 /mnt/d/Projects/PEA2/src/algorithms/ui/CommandLineInterface.hpp
+../threading/ThreadManager.hpp
+/mnt/d/Projects/PEA2/src/algorithms/threading/ThreadManager.hpp
 
 /mnt/d/Projects/PEA2/src/algorithms/ui/CommandLineInterface.hpp
 string
@@ -51,4 +75,8 @@ string
 /mnt/d/Projects/PEA2/src/main.cpp
 iostream
 -
+algorithms/ui/CommandLineInterface.hpp
+/mnt/d/Projects/PEA2/src/algorithms/ui/CommandLineInterface.hpp
+FileLoader/FileLoader.hpp
+/mnt/d/Projects/PEA2/src/FileLoader/FileLoader.hpp
 

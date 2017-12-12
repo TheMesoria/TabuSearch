@@ -5,6 +5,7 @@
 #include <fstream>
 #include <cmath>
 #include <iostream>
+#include <string>
 
 Map FileLoader::operator[](size_t pos) const
 {
@@ -19,8 +20,8 @@ void FileLoader::addMap(std::string path)
 	{
 		std::string tmp;
 		std::getline(file,tmp);
-		std::cout<<tmp<<std::endl;
-		if(tmp=="NODE_COORD_SECTION")
+		//std::cout<< tmp << std::endl << std::boolalpha << tmp.compare("NODE_COORD_SECTION") << std::endl;
+		if(tmp.compare("NODE_COORD_SECTION"))
 		{
 			loadCoordPoints(file);
 			loadPointedMap(availableCoordMapVector_.back());

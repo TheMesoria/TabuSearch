@@ -1,7 +1,11 @@
 #include <iostream>
+#include "algorithms/ui/CommandLineInterface.hpp"
+#include "FileLoader/FileLoader.hpp"
 
 int main() 
 {
-	//TabuHolder tabuHolder;
+	CommandLineInterface cli;
+	cli.Init();
+	
 	return EXIT_SUCCESS;
 }

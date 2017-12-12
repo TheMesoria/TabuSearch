@@ -3,3 +3,6 @@
 //
 
 #include "TabuSearch.hpp"
+
+TabuSearch::TabuSearch(const std::shared_ptr<Map> &map) : map_(map)
+{}
