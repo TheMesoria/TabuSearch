@@ -25,7 +25,9 @@ memory
 D:/Projects/PEA2/src/algorithms/TabuHolder.cpp
 iostream
 -
-string
+thread
+-
+future
 -
 TabuHolder.hpp
 D:/Projects/PEA2/src/algorithms/TabuHolder.hpp

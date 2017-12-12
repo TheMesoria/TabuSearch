@@ -88,16 +88,22 @@
 		<Unit filename="D:/Projects/PEA2/src/FileLoader/FileLoader.hpp">
 			<Option target="pea"/>
 		</Unit>
-		<Unit filename="D:/Projects/PEA2/src/algorithms/TabuHolder.cpp">
+		<Unit filename="D:/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.cpp">
 			<Option target="pea"/>
 		</Unit>
-		<Unit filename="D:/Projects/PEA2/src/algorithms/TabuHolder.hpp">
+		<Unit filename="D:/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.hpp">
 			<Option target="pea"/>
 		</Unit>
-		<Unit filename="D:/Projects/PEA2/src/algorithms/TabuSearch/TabuSearch.cpp">
+		<Unit filename="D:/Projects/PEA2/src/algorithms/threading/ThreadManager.cpp">
 			<Option target="pea"/>
 		</Unit>
-		<Unit filename="D:/Projects/PEA2/src/algorithms/TabuSearch/TabuSearch.hpp">
+		<Unit filename="D:/Projects/PEA2/src/algorithms/threading/ThreadManager.hpp">
+			<Option target="pea"/>
+		</Unit>
+		<Unit filename="D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.cpp">
+			<Option target="pea"/>
+		</Unit>
+		<Unit filename="D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.hpp">
 			<Option target="pea"/>
 		</Unit>
 		<Unit filename="D:/Projects/PEA2/src/main.cpp">

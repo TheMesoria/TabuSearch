@@ -5,8 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/d/Projects/PEA2/src/FileLoader/FileLoader.cpp" "/mnt/d/Projects/PEA2/cmake/CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.o"
-  "/mnt/d/Projects/PEA2/src/algorithms/TabuHolder.cpp" "/mnt/d/Projects/PEA2/cmake/CMakeFiles/pea.dir/src/algorithms/TabuHolder.cpp.o"
-  "/mnt/d/Projects/PEA2/src/algorithms/TabuSearch/TabuSearch.cpp" "/mnt/d/Projects/PEA2/cmake/CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.o"
+  "/mnt/d/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.cpp" "/mnt/d/Projects/PEA2/cmake/CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.o"
+  "/mnt/d/Projects/PEA2/src/algorithms/threading/ThreadManager.cpp" "/mnt/d/Projects/PEA2/cmake/CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.o"
+  "/mnt/d/Projects/PEA2/src/algorithms/ui/CommandLineInterface.cpp" "/mnt/d/Projects/PEA2/cmake/CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.o"
   "/mnt/d/Projects/PEA2/src/main.cpp" "/mnt/d/Projects/PEA2/cmake/CMakeFiles/pea.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

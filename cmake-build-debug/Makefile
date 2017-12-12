@@ -149,59 +149,86 @@ src/FileLoader/FileLoader.cpp.s:
 	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.s
 .PHONY : src/FileLoader/FileLoader.cpp.s
 
-src/algorithms/TabuHolder.obj: src/algorithms/TabuHolder.cpp.obj
+src/algorithms/tabusearch/TabuSearch.obj: src/algorithms/tabusearch/TabuSearch.cpp.obj
 
-.PHONY : src/algorithms/TabuHolder.obj
-
-# target to build an object file
-src/algorithms/TabuHolder.cpp.obj:
-	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/TabuHolder.cpp.obj
-.PHONY : src/algorithms/TabuHolder.cpp.obj
-
-src/algorithms/TabuHolder.i: src/algorithms/TabuHolder.cpp.i
-
-.PHONY : src/algorithms/TabuHolder.i
-
-# target to preprocess a source file
-src/algorithms/TabuHolder.cpp.i:
-	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/TabuHolder.cpp.i
-.PHONY : src/algorithms/TabuHolder.cpp.i
-
-src/algorithms/TabuHolder.s: src/algorithms/TabuHolder.cpp.s
-
-.PHONY : src/algorithms/TabuHolder.s
-
-# target to generate assembly for a file
-src/algorithms/TabuHolder.cpp.s:
-	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/TabuHolder.cpp.s
-.PHONY : src/algorithms/TabuHolder.cpp.s
-
-src/algorithms/TabuSearch/TabuSearch.obj: src/algorithms/TabuSearch/TabuSearch.cpp.obj
-
-.PHONY : src/algorithms/TabuSearch/TabuSearch.obj
+.PHONY : src/algorithms/tabusearch/TabuSearch.obj
 
 # target to build an object file
-src/algorithms/TabuSearch/TabuSearch.cpp.obj:
-	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj
-.PHONY : src/algorithms/TabuSearch/TabuSearch.cpp.obj
+src/algorithms/tabusearch/TabuSearch.cpp.obj:
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.obj
+.PHONY : src/algorithms/tabusearch/TabuSearch.cpp.obj
 
-src/algorithms/TabuSearch/TabuSearch.i: src/algorithms/TabuSearch/TabuSearch.cpp.i
+src/algorithms/tabusearch/TabuSearch.i: src/algorithms/tabusearch/TabuSearch.cpp.i
 
-.PHONY : src/algorithms/TabuSearch/TabuSearch.i
+.PHONY : src/algorithms/tabusearch/TabuSearch.i
 
 # target to preprocess a source file
-src/algorithms/TabuSearch/TabuSearch.cpp.i:
-	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.i
-.PHONY : src/algorithms/TabuSearch/TabuSearch.cpp.i
+src/algorithms/tabusearch/TabuSearch.cpp.i:
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.i
+.PHONY : src/algorithms/tabusearch/TabuSearch.cpp.i
 
-src/algorithms/TabuSearch/TabuSearch.s: src/algorithms/TabuSearch/TabuSearch.cpp.s
+src/algorithms/tabusearch/TabuSearch.s: src/algorithms/tabusearch/TabuSearch.cpp.s
 
-.PHONY : src/algorithms/TabuSearch/TabuSearch.s
+.PHONY : src/algorithms/tabusearch/TabuSearch.s
 
 # target to generate assembly for a file
-src/algorithms/TabuSearch/TabuSearch.cpp.s:
-	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.s
-.PHONY : src/algorithms/TabuSearch/TabuSearch.cpp.s
+src/algorithms/tabusearch/TabuSearch.cpp.s:
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.s
+.PHONY : src/algorithms/tabusearch/TabuSearch.cpp.s
+
+src/algorithms/threading/ThreadManager.obj: src/algorithms/threading/ThreadManager.cpp.obj
+
+.PHONY : src/algorithms/threading/ThreadManager.obj
+
+# target to build an object file
+src/algorithms/threading/ThreadManager.cpp.obj:
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj
+.PHONY : src/algorithms/threading/ThreadManager.cpp.obj
+
+src/algorithms/threading/ThreadManager.i: src/algorithms/threading/ThreadManager.cpp.i
+
+.PHONY : src/algorithms/threading/ThreadManager.i
+
+# target to preprocess a source file
+src/algorithms/threading/ThreadManager.cpp.i:
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.i
+.PHONY : src/algorithms/threading/ThreadManager.cpp.i
+
+src/algorithms/threading/ThreadManager.s: src/algorithms/threading/ThreadManager.cpp.s
+
+.PHONY : src/algorithms/threading/ThreadManager.s
+
+# target to generate assembly for a file
+src/algorithms/threading/ThreadManager.cpp.s:
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.s
+.PHONY : src/algorithms/threading/ThreadManager.cpp.s
+
+src/algorithms/ui/CommandLineInterface.obj: src/algorithms/ui/CommandLineInterface.cpp.obj
+
+.PHONY : src/algorithms/ui/CommandLineInterface.obj
+
+# target to build an object file
+src/algorithms/ui/CommandLineInterface.cpp.obj:
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.obj
+.PHONY : src/algorithms/ui/CommandLineInterface.cpp.obj
+
+src/algorithms/ui/CommandLineInterface.i: src/algorithms/ui/CommandLineInterface.cpp.i
+
+.PHONY : src/algorithms/ui/CommandLineInterface.i
+
+# target to preprocess a source file
+src/algorithms/ui/CommandLineInterface.cpp.i:
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.i
+.PHONY : src/algorithms/ui/CommandLineInterface.cpp.i
+
+src/algorithms/ui/CommandLineInterface.s: src/algorithms/ui/CommandLineInterface.cpp.s
+
+.PHONY : src/algorithms/ui/CommandLineInterface.s
+
+# target to generate assembly for a file
+src/algorithms/ui/CommandLineInterface.cpp.s:
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.s
+.PHONY : src/algorithms/ui/CommandLineInterface.cpp.s
 
 src/main.obj: src/main.cpp.obj
 
@@ -242,12 +269,15 @@ help:
 	@echo ... src/FileLoader/FileLoader.obj
 	@echo ... src/FileLoader/FileLoader.i
 	@echo ... src/FileLoader/FileLoader.s
-	@echo ... src/algorithms/TabuHolder.obj
-	@echo ... src/algorithms/TabuHolder.i
-	@echo ... src/algorithms/TabuHolder.s
-	@echo ... src/algorithms/TabuSearch/TabuSearch.obj
-	@echo ... src/algorithms/TabuSearch/TabuSearch.i
-	@echo ... src/algorithms/TabuSearch/TabuSearch.s
+	@echo ... src/algorithms/tabusearch/TabuSearch.obj
+	@echo ... src/algorithms/tabusearch/TabuSearch.i
+	@echo ... src/algorithms/tabusearch/TabuSearch.s
+	@echo ... src/algorithms/threading/ThreadManager.obj
+	@echo ... src/algorithms/threading/ThreadManager.i
+	@echo ... src/algorithms/threading/ThreadManager.s
+	@echo ... src/algorithms/ui/CommandLineInterface.obj
+	@echo ... src/algorithms/ui/CommandLineInterface.i
+	@echo ... src/algorithms/ui/CommandLineInterface.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

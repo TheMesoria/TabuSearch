@@ -4,13 +4,15 @@
 CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.o: ../src/FileLoader/FileLoader.cpp
 CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.o: ../src/FileLoader/FileLoader.hpp
 
-CMakeFiles/pea.dir/src/algorithms/TabuHolder.cpp.o: ../src/algorithms/TabuHolder.cpp
-CMakeFiles/pea.dir/src/algorithms/TabuHolder.cpp.o: ../src/algorithms/TabuHolder.hpp
+CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.o: ../src/FileLoader/FileLoader.hpp
+CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.o: ../src/algorithms/tabusearch/TabuSearch.cpp
+CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.o: ../src/algorithms/tabusearch/TabuSearch.hpp
 
-CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.o: ../src/FileLoader/FileLoader.hpp
-CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.o: ../src/algorithms/TabuSearch/TabuSearch.cpp
-CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.o: ../src/algorithms/TabuSearch/TabuSearch.hpp
+CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.o: ../src/algorithms/threading/ThreadManager.cpp
+CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.o: ../src/algorithms/threading/ThreadManager.hpp
 
-CMakeFiles/pea.dir/src/main.cpp.o: ../src/algorithms/TabuHolder.hpp
+CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.o: ../src/algorithms/ui/CommandLineInterface.cpp
+CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.o: ../src/algorithms/ui/CommandLineInterface.hpp
+
 CMakeFiles/pea.dir/src/main.cpp.o: ../src/main.cpp
 

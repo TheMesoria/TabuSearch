@@ -1,8 +1,7 @@
 #include <iostream>
-#include "algorithms/TabuHolder.hpp"
 
 int main() 
 {
-	TabuHolder tabuHolder;
+	//TabuHolder tabuHolder;
 	return EXIT_SUCCESS;
 }

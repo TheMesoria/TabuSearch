@@ -1,8 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pea.dir/src/main.cpp.obj"
   "CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.obj"
-  "CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj"
-  "CMakeFiles/pea.dir/src/algorithms/TabuHolder.cpp.obj"
+  "CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.obj"
+  "CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj"
+  "CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.obj"
   "pea.pdb"
   "pea.exe"
   "pea.exe.manifest"
