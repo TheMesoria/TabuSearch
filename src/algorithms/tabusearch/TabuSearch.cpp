@@ -4,16 +4,19 @@
 
 #include <fstream>
 #include <iomanip>
-#include <set>;
 #include "TabuSearch.hpp"
+#include "../GreedyAlg/GreedyAlg.hpp"
 
 
 TabuSearch::TabuSearch(const std::shared_ptr<Map> &map, ThreadManager *threadManager)
 {
  	threadManager_ = threadManager;
 	map_ = map;
+	std::cout << map.get()->size();
 	bestResult.reserve(map_.get()->size()+1);
 	actualResult.reserve(map_.get()->size()+1);
+	auto x = std::vector<unsigned>();
+	greedyAlgorythm(&x);
 }
 TabuSearch::~TabuSearch()
 {
@@ -31,21 +34,12 @@ void TabuSearch::printToFile()
 }
 void TabuSearch::greedyAlgorythm(std::vector<unsigned> *target) const
 {
-	std::set<unsigned> citySet;
-	unsigned path = 0;
-	
-	citySet.insert(0);
-	for(unsigned i=0; i<map_.get()->size();i++)
+	GreedyAlgorithm greedyAlgorithm;
+	std::cout << map_.get()->size();
+	auto x = greedyAlgorithm(0,*map_.get());
+	for(unsigned l : x)
 	{
-		auto cities = getThePathVector(0);
-		for(auto city : *cities)
-		{
-		
-		}
+		std::cout << l <<std::endl;
 	}
-}
-std::vector<unsigned> *TabuSearch::getThePathVector(const unsigned &start) const
-{
-	//Works on actual map
-	return &map_.get()->[start];
+	return;
 }

@@ -149,6 +149,33 @@ src/FileLoader/FileLoader.cpp.s:
 	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.s
 .PHONY : src/FileLoader/FileLoader.cpp.s
 
+src/algorithms/GreedyAlg/GreedyAlg.obj: src/algorithms/GreedyAlg/GreedyAlg.cpp.obj
+
+.PHONY : src/algorithms/GreedyAlg/GreedyAlg.obj
+
+# target to build an object file
+src/algorithms/GreedyAlg/GreedyAlg.cpp.obj:
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.obj
+.PHONY : src/algorithms/GreedyAlg/GreedyAlg.cpp.obj
+
+src/algorithms/GreedyAlg/GreedyAlg.i: src/algorithms/GreedyAlg/GreedyAlg.cpp.i
+
+.PHONY : src/algorithms/GreedyAlg/GreedyAlg.i
+
+# target to preprocess a source file
+src/algorithms/GreedyAlg/GreedyAlg.cpp.i:
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.i
+.PHONY : src/algorithms/GreedyAlg/GreedyAlg.cpp.i
+
+src/algorithms/GreedyAlg/GreedyAlg.s: src/algorithms/GreedyAlg/GreedyAlg.cpp.s
+
+.PHONY : src/algorithms/GreedyAlg/GreedyAlg.s
+
+# target to generate assembly for a file
+src/algorithms/GreedyAlg/GreedyAlg.cpp.s:
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.s
+.PHONY : src/algorithms/GreedyAlg/GreedyAlg.cpp.s
+
 src/algorithms/tabusearch/TabuSearch.obj: src/algorithms/tabusearch/TabuSearch.cpp.obj
 
 .PHONY : src/algorithms/tabusearch/TabuSearch.obj
@@ -269,6 +296,9 @@ help:
 	@echo ... src/FileLoader/FileLoader.obj
 	@echo ... src/FileLoader/FileLoader.i
 	@echo ... src/FileLoader/FileLoader.s
+	@echo ... src/algorithms/GreedyAlg/GreedyAlg.obj
+	@echo ... src/algorithms/GreedyAlg/GreedyAlg.i
+	@echo ... src/algorithms/GreedyAlg/GreedyAlg.s
 	@echo ... src/algorithms/tabusearch/TabuSearch.obj
 	@echo ... src/algorithms/tabusearch/TabuSearch.i
 	@echo ... src/algorithms/tabusearch/TabuSearch.s

@@ -1,15 +1,16 @@
 #pragma once
-#include "../City/Map.hpp"
 #include <memory>
 #include <algorithm>
+#include <list>
+#include "../../FileLoader/FileLoader.hpp"
 
 class GreedyAlgorithm 
 {
 	std::list<unsigned> path_;
 
 private:
-	CityMap::Path getClosestCity(
-		const CityMap& map, 
+	std::vector<unsigned> getClosestCity(
+		const Map& map,
 		std::vector<size_t>& notVisited,
 		const unsigned& start = 0 );
 
@@ -20,7 +21,8 @@ private:
 public:
 	static const unsigned INF = 9999;
 
-	CityMap::Path operator()(
-		const CityMap& cities, 
-		const unsigned& startPoint) ;
+	std::vector<unsigned> operator()(
+			const unsigned& startPoint,
+			const Map& cities
+	) ;
 };

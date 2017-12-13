@@ -101,7 +101,6 @@ void ThreadManager::startProcess(ThreadManager* activeThreadManager)
 	FileLoader fileLoader;
 	fileLoader.addMap(activeThreadManager->getPath());
 	std::shared_ptr<Map> map = std::make_shared<Map>(fileLoader[0]);
-	auto y = map.get()->size();
 	TabuSearch tabuSearch(map,activeThreadManager);
 	
 	std::cout << "Clearing resources." << std::endl;

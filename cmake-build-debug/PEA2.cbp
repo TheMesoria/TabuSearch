@@ -88,6 +88,12 @@
 		<Unit filename="D:/Projects/PEA2/src/FileLoader/FileLoader.hpp">
 			<Option target="pea"/>
 		</Unit>
+		<Unit filename="D:/Projects/PEA2/src/algorithms/GreedyAlg/GreedyAlg.cpp">
+			<Option target="pea"/>
+		</Unit>
+		<Unit filename="D:/Projects/PEA2/src/algorithms/GreedyAlg/GreedyAlg.hpp">
+			<Option target="pea"/>
+		</Unit>
 		<Unit filename="D:/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.cpp">
 			<Option target="pea"/>
 		</Unit>

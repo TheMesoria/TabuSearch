@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include "CommandLineInterface.hpp"
-#include "../threading/ThreadManager.hpp"
+#include "../../threading/ThreadManager.hpp"
 
 int CommandLineInterface::Init()
 {

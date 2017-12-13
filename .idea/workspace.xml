@@ -14,23 +14,43 @@
     <list default="true" id="660fb8bc-80e7-45bc-a6e8-d595fd9ad569" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/CXX.includecache" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/DependInfo.cmake" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/build.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/cmake_clean.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/depend.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/objects.a" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/objects.a" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/objects1.rsp" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/objects1.rsp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.obj" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/src/main.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/src/main.cpp.obj" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/PEA2.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/PEA2.cbp" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/pea.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/pea.exe" />
+      <change beforePath="$PROJECT_DIR$/cmake/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake/CMakeFiles/Makefile2" />
+      <change beforePath="$PROJECT_DIR$/cmake/CMakeFiles/pea.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake/CMakeFiles/pea.dir/CXX.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake/CMakeFiles/pea.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake/CMakeFiles/pea.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake/CMakeFiles/pea.dir/build.make" afterPath="$PROJECT_DIR$/cmake/CMakeFiles/pea.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake/CMakeFiles/pea.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake/CMakeFiles/pea.dir/cmake_clean.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake/CMakeFiles/pea.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake/CMakeFiles/pea.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/cmake/CMakeFiles/pea.dir/depend.make" afterPath="$PROJECT_DIR$/cmake/CMakeFiles/pea.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/cmake/CMakeFiles/pea.dir/link.txt" afterPath="$PROJECT_DIR$/cmake/CMakeFiles/pea.dir/link.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake/CMakeFiles/pea.dir/progress.make" afterPath="$PROJECT_DIR$/cmake/CMakeFiles/pea.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake/CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake/CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/cmake/Makefile" afterPath="$PROJECT_DIR$/cmake/Makefile" />
+      <change beforePath="$PROJECT_DIR$/src/FileLoader/FileLoader.cpp" afterPath="$PROJECT_DIR$/src/FileLoader/FileLoader.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/GreedyAlg/GreedyAlg.cpp" afterPath="$PROJECT_DIR$/src/algorithms/GreedyAlg/GreedyAlg.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/GreedyAlg/GreedyAlg.hpp" afterPath="$PROJECT_DIR$/src/algorithms/GreedyAlg/GreedyAlg.hpp" />
       <change beforePath="$PROJECT_DIR$/src/algorithms/tabusearch/TabuSearch.cpp" afterPath="$PROJECT_DIR$/src/algorithms/tabusearch/TabuSearch.cpp" />
       <change beforePath="$PROJECT_DIR$/src/algorithms/tabusearch/TabuSearch.hpp" afterPath="$PROJECT_DIR$/src/algorithms/tabusearch/TabuSearch.hpp" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/threading/ThreadManager.cpp" afterPath="$PROJECT_DIR$/src/threading/ThreadManager.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/threading/ThreadManager.hpp" afterPath="$PROJECT_DIR$/src/threading/ThreadManager.hpp" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/ui/CommandLineInterface.cpp" afterPath="$PROJECT_DIR$/src/algorithms/ui/CommandLineInterface.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/threading/ThreadManager.cpp" afterPath="$PROJECT_DIR$/src/threading/ThreadManager.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,11 +68,10 @@
             <file leaf-file-name="TabuSearch.hpp" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/algorithms/tabusearch/TabuSearch.hpp">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="806">
-                    <caret line="26" column="60" lean-forward="false" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+                  <state relative-caret-position="837">
+                    <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
                     <folding>
-                      <marker date="1513168762606" expanded="true" signature="108:272" ph="..." />
-                      <marker date="1513168762606" expanded="true" signature="291:738" ph="{...}" />
+                      <element signature="e#99#116#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -64,8 +83,7 @@
                   <state relative-caret-position="728">
                     <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
                     <folding>
-                      <marker date="1513169737166" expanded="true" signature="114:174" ph="..." />
-                      <marker date="1513169737166" expanded="true" signature="196:851" ph="{...}" />
+                      <element signature="e#105#121#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -76,9 +94,18 @@
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="299">
                     <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="GreedyAlg.hpp" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/algorithms/GreedyAlg/GreedyAlg.hpp">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="624">
+                    <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
                     <folding>
-                      <marker date="1512908823075" expanded="false" signature="120:146" ph="..." />
-                      <marker date="1512908823075" expanded="true" signature="270:584" ph="{...}" />
+                      <element signature="e#13#30#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -103,8 +130,7 @@
             <state relative-caret-position="264">
               <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding>
-                <marker date="1513113563207" expanded="true" signature="9:106" ph="..." />
-                <marker date="1513113563207" expanded="true" signature="120:187" ph="{...}" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,41 +139,101 @@
       <file leaf-file-name="ThreadManager.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/threading/ThreadManager.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="79" column="13" lean-forward="false" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+            <state relative-caret-position="462">
+              <caret line="102" column="68" lean-forward="false" selection-start-line="102" selection-start-column="68" selection-end-line="102" selection-end-column="68" />
               <folding>
-                <marker date="1513169737141" expanded="true" signature="51:236" ph="..." />
-                <marker date="1513169737141" expanded="false" signature="381:434" ph="{...}" />
-                <marker date="1513169737141" expanded="false" signature="467:497" ph="{...}" />
-                <marker date="1513169737141" expanded="false" signature="534:813" ph="{...}" />
-                <marker date="1513169737141" expanded="false" signature="851:937" ph="{...}" />
-                <marker date="1513169737141" expanded="false" signature="993:1087" ph="{...}" />
-                <marker date="1513169737141" expanded="false" signature="1128:1220" ph="{...}" />
-                <marker date="1513169737141" expanded="false" signature="1282:1385" ph="{...}" />
-                <marker date="1513169737141" expanded="true" signature="1413:1501" ph="{...}" />
-                <marker date="1513169737141" expanded="true" signature="1537:2364" ph="{...}" />
-                <marker date="1513169737141" expanded="true" signature="2434:2804" ph="{...}" />
-                <marker date="1513169737141" expanded="false" signature="2849:2867" ph="{...}" />
-                <marker date="1513169737141" expanded="false" signature="2913:2931" ph="{...}" />
-                <marker date="1513169737141" expanded="false" signature="2976:3000" ph="{...}" />
+                <element signature="e#42#70#0" expanded="true" />
+                <element signature="e#238#434#0" expanded="false" />
+                <element signature="e#435#497#0" expanded="false" />
+                <element signature="e#502#813#0" expanded="false" />
+                <element signature="e#818#937#0" expanded="false" />
+                <element signature="e#938#1087#0" expanded="false" />
+                <element signature="e#1092#1220#0" expanded="false" />
+                <element signature="e#1221#1385#0" expanded="false" />
+                <element signature="e#2776#2838#0" expanded="false" />
+                <element signature="e#2839#2902#0" expanded="false" />
+                <element signature="e#2903#2971#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TabuSearch.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FileLoader.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FileLoader/FileLoader.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TabuSearch.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/tabusearch/TabuSearch.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+            <state relative-caret-position="265">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <marker date="1513169499897" expanded="true" signature="51:121" ph="..." />
-                <marker date="1513169499897" expanded="true" signature="210:348" ph="{...}" />
-                <marker date="1513169499897" expanded="true" signature="375:394" ph="{...}" />
-                <marker date="1513169499897" expanded="false" signature="426:684" ph="{...}" />
-                <marker date="1513169499897" expanded="true" signature="755:955" ph="{...}" />
-                <marker date="1513169499897" expanded="false" signature="1037:1093" ph="{...}" />
+                <element signature="e#42#60#0" expanded="true" />
+                <element signature="e#507#796#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GreedyAlg.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/GreedyAlg/GreedyAlg.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stl_vector.h" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Depos/MinGW/include/c++/4.8.3/bits/stl_vector.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="770" column="0" lean-forward="false" selection-start-line="770" selection-start-column="0" selection-end-line="770" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandLineInterface.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/ui/CommandLineInterface.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="60" column="11" lean-forward="false" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+              <folding>
+                <element signature="e#42#61#0" expanded="true" />
+                <element signature="e#766#851#0" expanded="false" />
+                <element signature="e#852#1350#0" expanded="false" />
+                <element signature="e#1551#1690#0" expanded="false" />
+                <element signature="e#1691#1812#0" expanded="false" />
+                <element signature="e#1813#1930#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,17 +257,20 @@
         <option value="$PROJECT_DIR$/src/FileLoader.cpp" />
         <option value="$PROJECT_DIR$/src/FileLoader/FileLoader.hpp" />
         <option value="$PROJECT_DIR$/src/algorithms/TabuSearch/TabuSearch.hpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/algorithms/TabuHolder.hpp" />
         <option value="$PROJECT_DIR$/src/algorithms/TabuHolder.cpp" />
         <option value="$PROJECT_DIR$/src/algorithms/ui/CommandLineInterface.hpp" />
-        <option value="$PROJECT_DIR$/src/algorithms/ui/CommandLineInterface.cpp" />
         <option value="$PROJECT_DIR$/src/algorithms/threading/ThreadManager.hpp" />
-        <option value="$PROJECT_DIR$/src/FileLoader/FileLoader.cpp" />
         <option value="$PROJECT_DIR$/src/main.cpp" />
         <option value="$PROJECT_DIR$/src/algorithms/threading/ThreadManager.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/algorithms/GreedyAlg/GreedyAlg.hpp" />
         <option value="$PROJECT_DIR$/src/algorithms/tabusearch/TabuSearch.hpp" />
+        <option value="$PROJECT_DIR$/src/algorithms/ui/CommandLineInterface.cpp" />
+        <option value="$PROJECT_DIR$/src/FileLoader/FileLoader.cpp" />
+        <option value="$PROJECT_DIR$/src/threading/ThreadManager.cpp" />
         <option value="$PROJECT_DIR$/src/algorithms/tabusearch/TabuSearch.cpp" />
+        <option value="$PROJECT_DIR$/src/algorithms/GreedyAlg/GreedyAlg.cpp" />
       </list>
     </option>
   </component>
@@ -223,6 +312,11 @@
             <path>
               <item name="PEA2" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="PEA2" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PEA2" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="PEA2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -237,32 +331,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="GreedyAlg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PEA2" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="PEA2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="tabusearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PEA2" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="PEA2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PEA2" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="PEA2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FileLoader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PEA2" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="PEA2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="threading" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -337,12 +405,12 @@
       <workItem from="1513066876346" duration="5027000" />
       <workItem from="1513073934892" duration="5766000" />
       <workItem from="1513080176710" duration="3559000" />
-      <workItem from="1513104817664" duration="13357000" />
+      <workItem from="1513104817664" duration="17188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65412000" />
+    <option name="totallyTimeSpent" value="69243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1216" extended-state="6" />
@@ -351,7 +419,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13132401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22794117" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="382" y="529" width="888" height="358" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19664635" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19577205" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4319853" sideWeight="0.50215286" order="9" side_tool="true" content_ui="tabs" x="62" y="328" width="1858" height="544" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46047795" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -367,6 +435,26 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22794117" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="382" y="529" width="888" height="358" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19577205" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4319853" sideWeight="0.50215286" order="9" side_tool="true" content_ui="tabs" x="62" y="328" width="1858" height="544" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46047795" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996324" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13132401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992464" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.6553309" sideWeight="0.49784714" order="3" side_tool="false" content_ui="combo" x="1920" y="162" width="1680" height="1027" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -386,7 +474,34 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="33" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/algorithms/tabusearch/TabuSearch.cpp</url>
+          <line>43</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/algorithms/tabusearch/TabuSearch.cpp</url>
+          <line>41</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/algorithms/GreedyAlg/GreedyAlg.cpp</url>
+          <line>11</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/algorithms/GreedyAlg/GreedyAlg.cpp</url>
+          <line>28</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/algorithms/GreedyAlg/GreedyAlg.cpp</url>
+          <line>15</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="47" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -403,42 +518,9 @@
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="63" lean-forward="false" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
-          <folding>
-            <marker date="1513113563207" expanded="true" signature="9:106" ph="..." />
-            <marker date="1513113563207" expanded="true" signature="120:187" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileLoader/FileLoader.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileLoader/FileLoader.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
           <caret line="6" column="63" lean-forward="true" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
           <folding>
-            <marker date="1513113563207" expanded="true" signature="9:106" ph="..." />
-            <marker date="1513113563207" expanded="true" signature="120:187" ph="{...}" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -469,8 +551,7 @@
         <state relative-caret-position="69">
           <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
           <folding>
-            <marker date="1513113563207" expanded="true" signature="9:106" ph="..." />
-            <marker date="1513113563207" expanded="true" signature="120:187" ph="{...}" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -522,8 +603,7 @@
         <state relative-caret-position="180">
           <caret line="6" column="63" lean-forward="true" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
           <folding>
-            <marker date="1513113563207" expanded="true" signature="9:106" ph="..." />
-            <marker date="1513113563207" expanded="true" signature="120:187" ph="{...}" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -554,8 +634,7 @@
         <state relative-caret-position="69">
           <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
           <folding>
-            <marker date="1513113563207" expanded="true" signature="9:106" ph="..." />
-            <marker date="1513113563207" expanded="true" signature="120:187" ph="{...}" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -637,14 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmake/CMakeCache.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -665,14 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/ui/CommandLineInterface.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="61" column="25" lean-forward="false" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -700,25 +763,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/threading/ThreadManager.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-          <folding>
-            <marker date="1513169737166" expanded="true" signature="114:174" ph="..." />
-            <marker date="1513169737166" expanded="true" signature="196:851" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FileLoader/FileLoader.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding>
-            <marker date="1512908823075" expanded="false" signature="120:146" ph="..." />
-            <marker date="1512908823075" expanded="true" signature="270:584" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -727,25 +776,6 @@
         <state relative-caret-position="183">
           <caret line="1732" column="9" lean-forward="true" selection-start-line="1732" selection-start-column="9" selection-end-line="1732" selection-end-column="9" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileLoader/FileLoader.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <marker date="1513113563207" expanded="true" signature="9:106" ph="..." />
-            <marker date="1513113563207" expanded="true" signature="120:187" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -765,52 +795,129 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/GreedyAlg/GreedyAlg.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <element signature="e#13#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/threading/ThreadManager.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding>
+            <element signature="e#105#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/tabusearch/TabuSearch.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="26" column="60" lean-forward="false" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
+        <state relative-caret-position="837">
+          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
           <folding>
-            <marker date="1513168762606" expanded="true" signature="108:272" ph="..." />
-            <marker date="1513168762606" expanded="true" signature="291:738" ph="{...}" />
+            <element signature="e#99#116#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FileLoader/FileLoader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/threading/ThreadManager.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="79" column="13" lean-forward="false" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+        <state relative-caret-position="462">
+          <caret line="102" column="68" lean-forward="false" selection-start-line="102" selection-start-column="68" selection-end-line="102" selection-end-column="68" />
           <folding>
-            <marker date="1513169737141" expanded="true" signature="51:236" ph="..." />
-            <marker date="1513169737141" expanded="false" signature="381:434" ph="{...}" />
-            <marker date="1513169737141" expanded="false" signature="467:497" ph="{...}" />
-            <marker date="1513169737141" expanded="false" signature="534:813" ph="{...}" />
-            <marker date="1513169737141" expanded="false" signature="851:937" ph="{...}" />
-            <marker date="1513169737141" expanded="false" signature="993:1087" ph="{...}" />
-            <marker date="1513169737141" expanded="false" signature="1128:1220" ph="{...}" />
-            <marker date="1513169737141" expanded="false" signature="1282:1385" ph="{...}" />
-            <marker date="1513169737141" expanded="true" signature="1413:1501" ph="{...}" />
-            <marker date="1513169737141" expanded="true" signature="1537:2364" ph="{...}" />
-            <marker date="1513169737141" expanded="true" signature="2434:2804" ph="{...}" />
-            <marker date="1513169737141" expanded="false" signature="2849:2867" ph="{...}" />
-            <marker date="1513169737141" expanded="false" signature="2913:2931" ph="{...}" />
-            <marker date="1513169737141" expanded="false" signature="2976:3000" ph="{...}" />
+            <element signature="e#42#70#0" expanded="true" />
+            <element signature="e#238#434#0" expanded="false" />
+            <element signature="e#435#497#0" expanded="false" />
+            <element signature="e#502#813#0" expanded="false" />
+            <element signature="e#818#937#0" expanded="false" />
+            <element signature="e#938#1087#0" expanded="false" />
+            <element signature="e#1092#1220#0" expanded="false" />
+            <element signature="e#1221#1385#0" expanded="false" />
+            <element signature="e#2776#2838#0" expanded="false" />
+            <element signature="e#2839#2902#0" expanded="false" />
+            <element signature="e#2903#2971#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/ui/CommandLineInterface.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="60" column="11" lean-forward="false" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+          <folding>
+            <element signature="e#42#61#0" expanded="true" />
+            <element signature="e#766#851#0" expanded="false" />
+            <element signature="e#852#1350#0" expanded="false" />
+            <element signature="e#1551#1690#0" expanded="false" />
+            <element signature="e#1691#1812#0" expanded="false" />
+            <element signature="e#1813#1930#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/tabusearch/TabuSearch.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        <state relative-caret-position="265">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1513169499897" expanded="true" signature="51:121" ph="..." />
-            <marker date="1513169499897" expanded="true" signature="210:348" ph="{...}" />
-            <marker date="1513169499897" expanded="true" signature="375:394" ph="{...}" />
-            <marker date="1513169499897" expanded="false" signature="426:684" ph="{...}" />
-            <marker date="1513169499897" expanded="true" signature="755:955" ph="{...}" />
-            <marker date="1513169499897" expanded="false" signature="1037:1093" ph="{...}" />
+            <element signature="e#42#60#0" expanded="true" />
+            <element signature="e#507#796#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Depos/MinGW/include/c++/4.8.3/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="770" column="0" lean-forward="false" selection-start-line="770" selection-start-column="0" selection-end-line="770" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/GreedyAlg/GreedyAlg.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>

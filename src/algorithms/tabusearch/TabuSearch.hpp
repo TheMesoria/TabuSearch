@@ -11,7 +11,7 @@
 #include <list>
 #include <array>
 #include "../../FileLoader/FileLoader.hpp"
-#include "../threading/ThreadManager.hpp"
+#include "../../threading/ThreadManager.hpp"
 
 class TabuSearch
 {
@@ -25,7 +25,6 @@ class TabuSearch
 
 	
 	void greedyAlgorythm(std::vector<unsigned>* target) const;
-	std::vector<unsigned>* getThePathVector(const unsigned &start) const;
 	void printToFile();
 public:
 	TabuSearch(const std::shared_ptr<Map> &map, ThreadManager* threadManager);

@@ -150,6 +150,33 @@ src/FileLoader/FileLoader.cpp.s:
 	$(MAKE) -f CMakeFiles/pea.dir/build.make CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.s
 .PHONY : src/FileLoader/FileLoader.cpp.s
 
+src/algorithms/GreedyAlg/GreedyAlg.o: src/algorithms/GreedyAlg/GreedyAlg.cpp.o
+
+.PHONY : src/algorithms/GreedyAlg/GreedyAlg.o
+
+# target to build an object file
+src/algorithms/GreedyAlg/GreedyAlg.cpp.o:
+	$(MAKE) -f CMakeFiles/pea.dir/build.make CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.o
+.PHONY : src/algorithms/GreedyAlg/GreedyAlg.cpp.o
+
+src/algorithms/GreedyAlg/GreedyAlg.i: src/algorithms/GreedyAlg/GreedyAlg.cpp.i
+
+.PHONY : src/algorithms/GreedyAlg/GreedyAlg.i
+
+# target to preprocess a source file
+src/algorithms/GreedyAlg/GreedyAlg.cpp.i:
+	$(MAKE) -f CMakeFiles/pea.dir/build.make CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.i
+.PHONY : src/algorithms/GreedyAlg/GreedyAlg.cpp.i
+
+src/algorithms/GreedyAlg/GreedyAlg.s: src/algorithms/GreedyAlg/GreedyAlg.cpp.s
+
+.PHONY : src/algorithms/GreedyAlg/GreedyAlg.s
+
+# target to generate assembly for a file
+src/algorithms/GreedyAlg/GreedyAlg.cpp.s:
+	$(MAKE) -f CMakeFiles/pea.dir/build.make CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.s
+.PHONY : src/algorithms/GreedyAlg/GreedyAlg.cpp.s
+
 src/algorithms/tabusearch/TabuSearch.o: src/algorithms/tabusearch/TabuSearch.cpp.o
 
 .PHONY : src/algorithms/tabusearch/TabuSearch.o
@@ -176,33 +203,6 @@ src/algorithms/tabusearch/TabuSearch.s: src/algorithms/tabusearch/TabuSearch.cpp
 src/algorithms/tabusearch/TabuSearch.cpp.s:
 	$(MAKE) -f CMakeFiles/pea.dir/build.make CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.s
 .PHONY : src/algorithms/tabusearch/TabuSearch.cpp.s
-
-src/algorithms/threading/ThreadManager.o: src/algorithms/threading/ThreadManager.cpp.o
-
-.PHONY : src/algorithms/threading/ThreadManager.o
-
-# target to build an object file
-src/algorithms/threading/ThreadManager.cpp.o:
-	$(MAKE) -f CMakeFiles/pea.dir/build.make CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.o
-.PHONY : src/algorithms/threading/ThreadManager.cpp.o
-
-src/algorithms/threading/ThreadManager.i: src/algorithms/threading/ThreadManager.cpp.i
-
-.PHONY : src/algorithms/threading/ThreadManager.i
-
-# target to preprocess a source file
-src/algorithms/threading/ThreadManager.cpp.i:
-	$(MAKE) -f CMakeFiles/pea.dir/build.make CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.i
-.PHONY : src/algorithms/threading/ThreadManager.cpp.i
-
-src/algorithms/threading/ThreadManager.s: src/algorithms/threading/ThreadManager.cpp.s
-
-.PHONY : src/algorithms/threading/ThreadManager.s
-
-# target to generate assembly for a file
-src/algorithms/threading/ThreadManager.cpp.s:
-	$(MAKE) -f CMakeFiles/pea.dir/build.make CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.s
-.PHONY : src/algorithms/threading/ThreadManager.cpp.s
 
 src/algorithms/ui/CommandLineInterface.o: src/algorithms/ui/CommandLineInterface.cpp.o
 
@@ -258,6 +258,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/pea.dir/build.make CMakeFiles/pea.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/threading/ThreadManager.o: src/threading/ThreadManager.cpp.o
+
+.PHONY : src/threading/ThreadManager.o
+
+# target to build an object file
+src/threading/ThreadManager.cpp.o:
+	$(MAKE) -f CMakeFiles/pea.dir/build.make CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.o
+.PHONY : src/threading/ThreadManager.cpp.o
+
+src/threading/ThreadManager.i: src/threading/ThreadManager.cpp.i
+
+.PHONY : src/threading/ThreadManager.i
+
+# target to preprocess a source file
+src/threading/ThreadManager.cpp.i:
+	$(MAKE) -f CMakeFiles/pea.dir/build.make CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.i
+.PHONY : src/threading/ThreadManager.cpp.i
+
+src/threading/ThreadManager.s: src/threading/ThreadManager.cpp.s
+
+.PHONY : src/threading/ThreadManager.s
+
+# target to generate assembly for a file
+src/threading/ThreadManager.cpp.s:
+	$(MAKE) -f CMakeFiles/pea.dir/build.make CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.s
+.PHONY : src/threading/ThreadManager.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -270,18 +297,21 @@ help:
 	@echo "... src/FileLoader/FileLoader.o"
 	@echo "... src/FileLoader/FileLoader.i"
 	@echo "... src/FileLoader/FileLoader.s"
+	@echo "... src/algorithms/GreedyAlg/GreedyAlg.o"
+	@echo "... src/algorithms/GreedyAlg/GreedyAlg.i"
+	@echo "... src/algorithms/GreedyAlg/GreedyAlg.s"
 	@echo "... src/algorithms/tabusearch/TabuSearch.o"
 	@echo "... src/algorithms/tabusearch/TabuSearch.i"
 	@echo "... src/algorithms/tabusearch/TabuSearch.s"
-	@echo "... src/algorithms/threading/ThreadManager.o"
-	@echo "... src/algorithms/threading/ThreadManager.i"
-	@echo "... src/algorithms/threading/ThreadManager.s"
 	@echo "... src/algorithms/ui/CommandLineInterface.o"
 	@echo "... src/algorithms/ui/CommandLineInterface.i"
 	@echo "... src/algorithms/ui/CommandLineInterface.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/threading/ThreadManager.o"
+	@echo "... src/threading/ThreadManager.i"
+	@echo "... src/threading/ThreadManager.s"
 .PHONY : help
 
 
