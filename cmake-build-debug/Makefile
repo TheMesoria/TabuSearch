@@ -176,33 +176,6 @@ src/algorithms/tabusearch/TabuSearch.cpp.s:
 	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.s
 .PHONY : src/algorithms/tabusearch/TabuSearch.cpp.s
 
-src/algorithms/threading/ThreadManager.obj: src/algorithms/threading/ThreadManager.cpp.obj
-
-.PHONY : src/algorithms/threading/ThreadManager.obj
-
-# target to build an object file
-src/algorithms/threading/ThreadManager.cpp.obj:
-	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj
-.PHONY : src/algorithms/threading/ThreadManager.cpp.obj
-
-src/algorithms/threading/ThreadManager.i: src/algorithms/threading/ThreadManager.cpp.i
-
-.PHONY : src/algorithms/threading/ThreadManager.i
-
-# target to preprocess a source file
-src/algorithms/threading/ThreadManager.cpp.i:
-	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.i
-.PHONY : src/algorithms/threading/ThreadManager.cpp.i
-
-src/algorithms/threading/ThreadManager.s: src/algorithms/threading/ThreadManager.cpp.s
-
-.PHONY : src/algorithms/threading/ThreadManager.s
-
-# target to generate assembly for a file
-src/algorithms/threading/ThreadManager.cpp.s:
-	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.s
-.PHONY : src/algorithms/threading/ThreadManager.cpp.s
-
 src/algorithms/ui/CommandLineInterface.obj: src/algorithms/ui/CommandLineInterface.cpp.obj
 
 .PHONY : src/algorithms/ui/CommandLineInterface.obj
@@ -257,6 +230,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/threading/ThreadManager.obj: src/threading/ThreadManager.cpp.obj
+
+.PHONY : src/threading/ThreadManager.obj
+
+# target to build an object file
+src/threading/ThreadManager.cpp.obj:
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj
+.PHONY : src/threading/ThreadManager.cpp.obj
+
+src/threading/ThreadManager.i: src/threading/ThreadManager.cpp.i
+
+.PHONY : src/threading/ThreadManager.i
+
+# target to preprocess a source file
+src/threading/ThreadManager.cpp.i:
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.i
+.PHONY : src/threading/ThreadManager.cpp.i
+
+src/threading/ThreadManager.s: src/threading/ThreadManager.cpp.s
+
+.PHONY : src/threading/ThreadManager.s
+
+# target to generate assembly for a file
+src/threading/ThreadManager.cpp.s:
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.s
+.PHONY : src/threading/ThreadManager.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -272,15 +272,15 @@ help:
 	@echo ... src/algorithms/tabusearch/TabuSearch.obj
 	@echo ... src/algorithms/tabusearch/TabuSearch.i
 	@echo ... src/algorithms/tabusearch/TabuSearch.s
-	@echo ... src/algorithms/threading/ThreadManager.obj
-	@echo ... src/algorithms/threading/ThreadManager.i
-	@echo ... src/algorithms/threading/ThreadManager.s
 	@echo ... src/algorithms/ui/CommandLineInterface.obj
 	@echo ... src/algorithms/ui/CommandLineInterface.i
 	@echo ... src/algorithms/ui/CommandLineInterface.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/threading/ThreadManager.obj
+	@echo ... src/threading/ThreadManager.i
+	@echo ... src/threading/ThreadManager.s
 .PHONY : help
 
 

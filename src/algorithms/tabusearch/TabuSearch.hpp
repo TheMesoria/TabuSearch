@@ -8,29 +8,28 @@
 #include <memory>
 #include <iostream>
 #include <thread>
+#include <list>
+#include <array>
 #include "../../FileLoader/FileLoader.hpp"
 #include "../threading/ThreadManager.hpp"
 
 class TabuSearch
 {
 	std::shared_ptr<Map> map_;
-	//std::vector<unsigned int> result_;
+	ThreadManager* threadManager_;
+	
+	std::vector<unsigned> bestResult;
+	std::vector<unsigned> actualResult;
+	
+	std::list<std::array<unsigned,3>> tabuList;
 
+	
+	void greedyAlgorythm(std::vector<unsigned>* target) const;
+	std::vector<unsigned>* getThePathVector(const unsigned &start) const;
+	void printToFile();
 public:
-	TabuSearch(const std::shared_ptr<Map> &map);
-	void Do(ThreadManager* threadManager){
-		int val = 0;
-		while(true)
-		{
-			auto x = threadManager->isTaskForceFinish();
-			std::cout << std::boolalpha << x << std::endl;
-			if(x) break;
-			std::this_thread::sleep_for(std::chrono::seconds(2));
-			std::cout << ++val << std::endl;
-		}
-		std::cout << "bailing out!" << std::endl;
-		std::this_thread::sleep_for(std::chrono::seconds(10));
-	}
+	TabuSearch(const std::shared_ptr<Map> &map, ThreadManager* threadManager);
+	virtual ~TabuSearch();
 };
 
 

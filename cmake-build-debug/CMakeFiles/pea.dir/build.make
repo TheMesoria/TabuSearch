@@ -128,28 +128,28 @@ CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.obj.provides: CMakeF
 CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.obj.provides.build: CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.obj
 
 
-CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj: CMakeFiles/pea.dir/flags.make
-CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj: ../src/algorithms/threading/ThreadManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\PEA2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj"
-	D:\Depos\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pea.dir\src\algorithms\threading\ThreadManager.cpp.obj -c D:\Projects\PEA2\src\algorithms\threading\ThreadManager.cpp
+CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj: CMakeFiles/pea.dir/flags.make
+CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj: ../src/threading/ThreadManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\PEA2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj"
+	D:\Depos\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pea.dir\src\threading\ThreadManager.cpp.obj -c D:\Projects\PEA2\src\threading\ThreadManager.cpp
 
-CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.i"
-	D:\Depos\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\PEA2\src\algorithms\threading\ThreadManager.cpp > CMakeFiles\pea.dir\src\algorithms\threading\ThreadManager.cpp.i
+CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.i"
+	D:\Depos\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\PEA2\src\threading\ThreadManager.cpp > CMakeFiles\pea.dir\src\threading\ThreadManager.cpp.i
 
-CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.s"
-	D:\Depos\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\PEA2\src\algorithms\threading\ThreadManager.cpp -o CMakeFiles\pea.dir\src\algorithms\threading\ThreadManager.cpp.s
+CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.s"
+	D:\Depos\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\PEA2\src\threading\ThreadManager.cpp -o CMakeFiles\pea.dir\src\threading\ThreadManager.cpp.s
 
-CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj.requires:
+CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj.requires:
 
-.PHONY : CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj.requires
+.PHONY : CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj.requires
 
-CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj.provides: CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj.provides.build
-.PHONY : CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj.provides
+CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj.provides: CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj.provides.build
+.PHONY : CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj.provides
 
-CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj.provides.build: CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj
+CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj.provides.build: CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj
 
 
 CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.obj: CMakeFiles/pea.dir/flags.make
@@ -181,7 +181,7 @@ pea_OBJECTS = \
 "CMakeFiles/pea.dir/src/main.cpp.obj" \
 "CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.obj" \
 "CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.obj" \
-"CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj" \
+"CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj" \
 "CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.obj"
 
 # External object files for target pea
@@ -190,7 +190,7 @@ pea_EXTERNAL_OBJECTS =
 pea.exe: CMakeFiles/pea.dir/src/main.cpp.obj
 pea.exe: CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.obj
 pea.exe: CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.obj
-pea.exe: CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj
+pea.exe: CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj
 pea.exe: CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.obj
 pea.exe: CMakeFiles/pea.dir/build.make
 pea.exe: CMakeFiles/pea.dir/linklibs.rsp
@@ -207,7 +207,7 @@ CMakeFiles/pea.dir/build: pea.exe
 CMakeFiles/pea.dir/requires: CMakeFiles/pea.dir/src/main.cpp.obj.requires
 CMakeFiles/pea.dir/requires: CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.obj.requires
 CMakeFiles/pea.dir/requires: CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.obj.requires
-CMakeFiles/pea.dir/requires: CMakeFiles/pea.dir/src/algorithms/threading/ThreadManager.cpp.obj.requires
+CMakeFiles/pea.dir/requires: CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj.requires
 CMakeFiles/pea.dir/requires: CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.obj.requires
 
 .PHONY : CMakeFiles/pea.dir/requires

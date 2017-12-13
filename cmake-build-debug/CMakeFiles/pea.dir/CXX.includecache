@@ -25,6 +25,10 @@ memory
 -
 
 D:/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.cpp
+fstream
+-
+iomanip
+-
 TabuSearch.hpp
 D:/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.hpp
 
@@ -34,6 +38,10 @@ memory
 iostream
 -
 thread
+-
+list
+-
+array
 -
 ../../FileLoader/FileLoader.hpp
 D:/Projects/PEA2/src/FileLoader/FileLoader.hpp
@@ -48,6 +56,8 @@ D:/Projects/PEA2/src/FileLoader/FileLoader.hpp
 ../tabusearch/TabuSearch.hpp
 D:/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.hpp
 thread
+-
+climits
 -
 future
 -

@@ -9,5 +9,5 @@ add_executable(
         src/main.cpp
         src/FileLoader/FileLoader.cpp
         src/FileLoader/FileLoader.hpp
-        src/algorithms/tabusearch/TabuSearch.cpp src/algorithms/tabusearch/TabuSearch.hpp src/algorithms/threading/ThreadManager.cpp src/algorithms/threading/ThreadManager.hpp src/algorithms/ui/CommandLineInterface.cpp src/algorithms/ui/CommandLineInterface.hpp)
+        src/algorithms/tabusearch/TabuSearch.cpp src/algorithms/tabusearch/TabuSearch.hpp src/threading/ThreadManager.cpp src/threading/ThreadManager.hpp src/algorithms/ui/CommandLineInterface.cpp src/algorithms/ui/CommandLineInterface.hpp)
 target_link_libraries (pea ${CMAKE_THREAD_LIBS_INIT})

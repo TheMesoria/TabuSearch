@@ -94,12 +94,6 @@
 		<Unit filename="D:/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.hpp">
 			<Option target="pea"/>
 		</Unit>
-		<Unit filename="D:/Projects/PEA2/src/algorithms/threading/ThreadManager.cpp">
-			<Option target="pea"/>
-		</Unit>
-		<Unit filename="D:/Projects/PEA2/src/algorithms/threading/ThreadManager.hpp">
-			<Option target="pea"/>
-		</Unit>
 		<Unit filename="D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.cpp">
 			<Option target="pea"/>
 		</Unit>
@@ -107,6 +101,12 @@
 			<Option target="pea"/>
 		</Unit>
 		<Unit filename="D:/Projects/PEA2/src/main.cpp">
+			<Option target="pea"/>
+		</Unit>
+		<Unit filename="D:/Projects/PEA2/src/threading/ThreadManager.cpp">
+			<Option target="pea"/>
+		</Unit>
+		<Unit filename="D:/Projects/PEA2/src/threading/ThreadManager.hpp">
 			<Option target="pea"/>
 		</Unit>
 		<Unit filename="D:/Projects/PEA2/CMakeLists.txt">

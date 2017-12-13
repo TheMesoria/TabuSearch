@@ -3,9 +3,10 @@
 //
 
 #include "ThreadManager.hpp"
-#include "../../FileLoader/FileLoader.hpp"
-#include "../tabusearch/TabuSearch.hpp"
+#include "../FileLoader/FileLoader.hpp"
+#include "../algorithms/tabusearch/TabuSearch.hpp"
 #include <thread>
+#include <climits>
 #include <future>
 #include <iostream>
 
@@ -60,10 +61,11 @@ void ThreadManager::Init()
 }
 bool ThreadManager::controlInput()
 {
-	std::cin.clear();
+	//std::cin.ignore(INT_MAX);
 	std::cin.ignore();
 	std::cout << "Subdue process with 'q'!" << std::endl;
-	std::cout << "Actual status: " << std::boolalpha << isTaskForceFinish();
+	std::cout << "Is task Finished? -> " << std::boolalpha << isTaskFinished() << std::endl;
+	std::cout << "Is task Forced to finished? -> " <<std::boolalpha << isTaskForceFinish() << std::endl;
 	switch (std::cin.get())
 	{
 		case 'n': return false;
@@ -76,13 +78,14 @@ bool ThreadManager::controlInput()
 			}
 			else
 			{
+				system("clear");
 				std::cout << "Ready to go!" << std::endl;
 				std::cout << "Spawning minion!" << std::endl;
 				std::thread thread(&ThreadManager::startProcess, this);
 				thread.detach();
 			}
 			
-			std::cout << "Moving on.";
+			std::cout << "Moving on." << std::endl;
 			return true;
 		}
 		default:
@@ -99,16 +102,7 @@ void ThreadManager::startProcess(ThreadManager* activeThreadManager)
 	fileLoader.addMap(activeThreadManager->getPath());
 	std::shared_ptr<Map> map = std::make_shared<Map>(fileLoader[0]);
 	auto y = map.get()->size();
-	TabuSearch tabuSearch(map);
-	
-	try
-	{
-		tabuSearch.Do(activeThreadManager);
-	}catch(std::exception e)
-	{
-		std::cerr << e.what() << std::endl;
-	}
-	
+	TabuSearch tabuSearch(map,activeThreadManager);
 	
 	std::cout << "Clearing resources." << std::endl;
 	

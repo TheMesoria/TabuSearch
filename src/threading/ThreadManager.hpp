@@ -6,7 +6,7 @@
 #define PEA2_THREADMANAGER_HPP
 
 #include <mutex>
-#include "../ui/CommandLineInterface.hpp"
+#include "../algorithms/ui/CommandLineInterface.hpp"
 
 class ThreadManager
 {
