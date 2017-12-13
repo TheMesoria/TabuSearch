@@ -55,7 +55,11 @@ std::vector<unsigned> GreedyAlgorithm::operator()(const unsigned &startPoint, co
 	path_.push_back(startPoint);
 	
 	auto path = getClosestCity(cities, notVisited, startPoint);
-	
+	std::vector<unsigned > ret;
+	for(auto x : path_)
+	{
+		ret.push_back(x);
+	}
 	path_ = std::list<unsigned>();
-	return path;
+	return ret;
 }
