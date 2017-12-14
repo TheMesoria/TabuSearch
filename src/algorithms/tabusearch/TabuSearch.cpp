@@ -71,22 +71,19 @@ void TabuSearch::Start()
 		currentElement={0,1, static_cast<unsigned>(INFINITY)};
 		for (unsigned i = 0; i < actualResult.size()-2; ++i)
 		{
-			for (unsigned j = i+1; j < actualResult.size()-1; ++j)
-			{
-				if(isInTabu(i,j)){break;}
-				
-				std::swap(actualResult[i],actualResult[j]);
-				actualResult.back()=actualResult.front();
-				
-				//-------------------------------------------
-				// 1) Get length
-				// 2) Check if path is worth  following
-				auto length = getPathLength(actualResult);
-				if(currentElement[2]>length) {currentElement={i,j,length};}
-				//-------------------------------------------
-				std::swap(actualResult[j],actualResult[i]);
-				actualResult.back()=actualResult.front();
-			}
+			if(isInTabu(i,0)){break;}
+			
+			std::swap(actualResult[i],actualResult[0]);
+			actualResult.back()=actualResult.front();
+			
+			//-------------------------------------------
+			// 1) Get length
+			// 2) Check if path is worth  following
+			auto length = getPathLength(actualResult);
+			if(currentElement[2]>length) {currentElement={i,0,length};}
+			//-------------------------------------------
+			std::swap(actualResult[0],actualResult[i]);
+			actualResult.back()=actualResult.front();
 		}
 		
 		//-------------------------------------------
@@ -143,10 +140,10 @@ void TabuSearch::Start()
 		//-------------------------------------------
 		
 		//-------------------------------------------
-		// if tabu is 0, it means looking is pointless
+		// if tabu is 5, it means looking is pointless
 		if(tabuSize_ <= 5) {return;}
-		if(tabuSize_ > 30) {tabuSize_=6;}
-		if(best < 27000 ) {return;}
+		//if(tabuSize_ > 30) {tabuSize_=6;}
+		//if(best < 27000 ) {return;}
 		//-------------------------------------------
 	}
 }
