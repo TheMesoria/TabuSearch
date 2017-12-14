@@ -25,6 +25,7 @@ TabuSearch::TabuSearch(const std::shared_ptr<Map> &map, ThreadManager *threadMan
 }
 TabuSearch::~TabuSearch()
 {
+	std::cout << "\n\nBEST : " << getPathLength(bestResult) <<"\n\n";
 	printToFile();
 }
 void TabuSearch::printToFile()
@@ -55,9 +56,22 @@ void TabuSearch::printToFile()
 void TabuSearch::greedyAlgorythm(std::vector<unsigned>* target) const
 {
 	GreedyAlgorithm greedyAlgorithm;
-	auto greedyResult = greedyAlgorithm(0,*map_.get());
-	greedyResult.push_back(greedyResult[0]);
-	*target=greedyResult;
+	auto path = static_cast<unsigned>(INFINITY);
+	auto greedyResult = std::vector<unsigned>();
+	auto ret=greedyResult;
+	for(auto i=0u;i<map_.get()->size();i++)
+	{
+		greedyResult = greedyAlgorithm(i,*map_.get());
+		greedyResult.push_back(i);
+		auto kek = getPathLength(greedyResult);
+		if(kek < path)
+		{
+			path = kek;
+			ret=greedyResult;
+		}
+		
+	}
+	*target=ret;
 }
 
 void TabuSearch::Start()
@@ -107,13 +121,15 @@ void TabuSearch::Start()
 			best = currentElement[2];
 			aspirationValue = static_cast<unsigned>(floor(currentElement[2]+currentElement[2]*threadManager_->getAspiration()));
 			tabuList.push_back({currentElement[1],currentElement[0],currentElement[2]});
+			tabuSize_++;
 			//-------------------------------------------
 			
 			std::cout << "--------------------------------------------------\n";
 			std::cout <<
 					  std::setw(10) << std::left << currentElement[0] <<
 					  std::setw(10) << std::left << currentElement[1] <<
-					  std::setw(10) << std::left << currentElement[2] << std::endl;
+					  std::setw(10) << std::left << currentElement[2] <<
+					  std::setw(10) << std::left << tabuSize_<< std::endl;
 			std::cout << "--------------------------------------------------\n";
 		}
 		else if(aspirationValue > currentElement[2])
@@ -129,12 +145,12 @@ void TabuSearch::Start()
 			
 			aspirationValue = static_cast<unsigned>(floor(currentElement[2]+currentElement[2]*threadManager_->getAspiration()));
 			tabuList.push_back({currentElement[1],currentElement[0],currentElement[2]});
-			tabuSize_++;
 			//-------------------------------------------
 			std::cout <<
 					  std::setw(10) << std::left << currentElement[0] <<
 					  std::setw(10) << std::left << currentElement[1] <<
-					  std::setw(10) << std::left << currentElement[2] << std::endl;
+					  std::setw(10) << std::left << currentElement[2] <<
+					  std::setw(10) << std::left << tabuSize_ << std::endl;
 		}
 		else
 		{
@@ -144,13 +160,12 @@ void TabuSearch::Start()
 		
 		//-------------------------------------------
 		// if tabu is 0, it means looking is pointless
-		if(tabuSize_ <= 5) {return;}
-		if(tabuSize_ > 30) {tabuSize_=6;}
-		if(best < 27000 ) {return;}
+		if(tabuSize_ < 5) {return;}
+		//if(tabuSize_ > 30) {tabuSize_ = 5;}
 		//-------------------------------------------
 	}
 }
-unsigned TabuSearch::getPathLength(const std::vector<unsigned> &path)
+unsigned TabuSearch::getPathLength(const std::vector<unsigned> &path) const
 {
 	unsigned returnValue=0;
 	for (int i = 1; i < path.size(); ++i)
@@ -180,10 +195,11 @@ bool TabuSearch::isInTabu(const unsigned &i, const unsigned &j)
 	}
 	return false;
 }
-void TabuSearch::debugPrint(const std::vector<unsigned int> &bug)
+void TabuSearch::debugPrint(const std::vector<unsigned int> &bug) const
 {
 	for(auto var : bug)
 	{
 		std::cout << std::setw(2) << std::left << var << ", ";
 	}
+	std::cout << "\n\n\n";
 }

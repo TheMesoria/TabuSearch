@@ -40,13 +40,7 @@ unsigned GreedyAlgorithm::findMinElement(const std::vector<unsigned> &val, std::
 std::vector<unsigned> GreedyAlgorithm::operator()(const unsigned &startPoint, const Map &cities)
 {
 	std::vector<unsigned> notVisited;
-	for (auto i = 0u; i < cities.size(); i++)
-	{
-		if (startPoint != i)
-			notVisited.push_back(i);
-		
-		std::cout << i << std::endl;
-	}
+	for (auto i = 0u; i < cities.size(); i++) { if (startPoint != i) notVisited.push_back(i); }
 	
 	path_.push_back(startPoint);
 	

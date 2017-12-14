@@ -46,7 +46,7 @@ char CommandLineInterface::userInput()
 }
 void CommandLineInterface::drawUi(const string &path, const unsigned &time, const double &aspiration)
 {
-	system("clear");
+	system("cls");
 	std::cout << "Time : " << time << std::endl;
 	std::cout << "Path : " << path << std::endl;
 	std::cout << "Aspiration : " << aspiration << std::endl;

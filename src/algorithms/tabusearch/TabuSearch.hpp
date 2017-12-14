@@ -27,9 +27,9 @@ class TabuSearch
 
 	
 	void greedyAlgorythm(std::vector<unsigned>* target) const;
-	unsigned getPathLength(const std::vector<unsigned> &path);
+	unsigned getPathLength(const std::vector<unsigned> &path) const;
 	bool isInTabu(const unsigned &i, const unsigned &j);
-	void debugPrint(const std::vector<unsigned> &bug);
+	void debugPrint(const std::vector<unsigned> &bug) const;
 	
 	void printToFile();
 public:

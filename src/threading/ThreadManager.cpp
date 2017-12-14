@@ -54,7 +54,7 @@ void ThreadManager::setTaskForceFinish(bool taskForceFinish)
 }
 void ThreadManager::Init()
 {
-	system("clear");
+	system("cls");
 	std::cout << "Ready?(y/n)" << std::endl;
 	while(controlInput()){}
 }
@@ -77,7 +77,7 @@ bool ThreadManager::controlInput()
 			}
 			else
 			{
-				system("clear");
+				system("cls");
 				std::cout << "Ready to go!" << std::endl;
 				std::cout << "Spawning minion!" << std::endl;
 				std::thread thread(&ThreadManager::startProcess, this);
