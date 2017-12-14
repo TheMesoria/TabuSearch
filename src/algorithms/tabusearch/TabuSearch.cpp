@@ -56,32 +56,19 @@ void TabuSearch::printToFile()
 void TabuSearch::greedyAlgorythm(std::vector<unsigned>* target) const
 {
 	GreedyAlgorithm greedyAlgorithm;
-	auto path = static_cast<unsigned>(INFINITY);
-	auto greedyResult = std::vector<unsigned>();
-	auto ret=greedyResult;
-	for(auto i=0u;i<map_.get()->size();i++)
-	{
-		greedyResult = greedyAlgorithm(i,*map_.get());
-		greedyResult.push_back(i);
-		auto kek = getPathLength(greedyResult);
-		if(kek < path)
-		{
-			path = kek;
-			ret=greedyResult;
-		}
-		
-	}
-	*target=ret;
+	*target=greedyAlgorithm(0,*map_.get());
 }
 
 void TabuSearch::Start()
 {
+	unsigned it =0;
 	std::array<unsigned, 3> currentElement{0,0,0};
 	unsigned best = getPathLength(actualResult);
 	auto aspirationValue = static_cast<unsigned>(floor(best+best*threadManager_->getAspiration()));
 	tabuSize_=threadManager_->getTabuSize();
 	while(!this->threadManager_->isTaskForceFinish())
 	{
+		it++;
 		currentElement={0,1, static_cast<unsigned>(INFINITY)};
 		for (unsigned i = 0; i < actualResult.size()-2; ++i)
 		{
@@ -129,7 +116,7 @@ void TabuSearch::Start()
 					  std::setw(10) << std::left << currentElement[0] <<
 					  std::setw(10) << std::left << currentElement[1] <<
 					  std::setw(10) << std::left << currentElement[2] <<
-					  std::setw(10) << std::left << tabuSize_<< std::endl;
+					  std::setw(10) << std::left << it << std::endl;
 			std::cout << "--------------------------------------------------\n";
 		}
 		else if(aspirationValue > currentElement[2])
@@ -150,7 +137,7 @@ void TabuSearch::Start()
 					  std::setw(10) << std::left << currentElement[0] <<
 					  std::setw(10) << std::left << currentElement[1] <<
 					  std::setw(10) << std::left << currentElement[2] <<
-					  std::setw(10) << std::left << tabuSize_ << std::endl;
+					  std::setw(10) << std::left << it << std::endl;
 		}
 		else
 		{
