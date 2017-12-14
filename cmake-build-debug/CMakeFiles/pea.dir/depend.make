@@ -12,20 +12,19 @@ CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/FileLoad
 CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/algorithms/GreedyAlg/GreedyAlg.hpp
 CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/algorithms/tabusearch/TabuSearch.cpp
 CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/algorithms/tabusearch/TabuSearch.hpp
-CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/algorithms/ui/CommandLineInterface.hpp
 CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/threading/ThreadManager.hpp
+CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/ui/CommandLineInterface.hpp
 
-CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.obj: ../src/algorithms/ui/CommandLineInterface.cpp
-CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.obj: ../src/algorithms/ui/CommandLineInterface.hpp
-CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.obj: ../src/threading/ThreadManager.hpp
-
-CMakeFiles/pea.dir/src/main.cpp.obj: ../src/FileLoader/FileLoader.hpp
-CMakeFiles/pea.dir/src/main.cpp.obj: ../src/algorithms/ui/CommandLineInterface.hpp
 CMakeFiles/pea.dir/src/main.cpp.obj: ../src/main.cpp
+CMakeFiles/pea.dir/src/main.cpp.obj: ../src/ui/CommandLineInterface.hpp
 
 CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj: ../src/FileLoader/FileLoader.hpp
 CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj: ../src/algorithms/tabusearch/TabuSearch.hpp
-CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj: ../src/algorithms/ui/CommandLineInterface.hpp
 CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj: ../src/threading/ThreadManager.cpp
 CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj: ../src/threading/ThreadManager.hpp
+CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj: ../src/ui/CommandLineInterface.hpp
+
+CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.obj: ../src/threading/ThreadManager.hpp
+CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.obj: ../src/ui/CommandLineInterface.cpp
+CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.obj: ../src/ui/CommandLineInterface.hpp
 

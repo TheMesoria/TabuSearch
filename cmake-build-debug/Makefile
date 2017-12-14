@@ -203,33 +203,6 @@ src/algorithms/tabusearch/TabuSearch.cpp.s:
 	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.s
 .PHONY : src/algorithms/tabusearch/TabuSearch.cpp.s
 
-src/algorithms/ui/CommandLineInterface.obj: src/algorithms/ui/CommandLineInterface.cpp.obj
-
-.PHONY : src/algorithms/ui/CommandLineInterface.obj
-
-# target to build an object file
-src/algorithms/ui/CommandLineInterface.cpp.obj:
-	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.obj
-.PHONY : src/algorithms/ui/CommandLineInterface.cpp.obj
-
-src/algorithms/ui/CommandLineInterface.i: src/algorithms/ui/CommandLineInterface.cpp.i
-
-.PHONY : src/algorithms/ui/CommandLineInterface.i
-
-# target to preprocess a source file
-src/algorithms/ui/CommandLineInterface.cpp.i:
-	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.i
-.PHONY : src/algorithms/ui/CommandLineInterface.cpp.i
-
-src/algorithms/ui/CommandLineInterface.s: src/algorithms/ui/CommandLineInterface.cpp.s
-
-.PHONY : src/algorithms/ui/CommandLineInterface.s
-
-# target to generate assembly for a file
-src/algorithms/ui/CommandLineInterface.cpp.s:
-	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.s
-.PHONY : src/algorithms/ui/CommandLineInterface.cpp.s
-
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -284,6 +257,33 @@ src/threading/ThreadManager.cpp.s:
 	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.s
 .PHONY : src/threading/ThreadManager.cpp.s
 
+src/ui/CommandLineInterface.obj: src/ui/CommandLineInterface.cpp.obj
+
+.PHONY : src/ui/CommandLineInterface.obj
+
+# target to build an object file
+src/ui/CommandLineInterface.cpp.obj:
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.obj
+.PHONY : src/ui/CommandLineInterface.cpp.obj
+
+src/ui/CommandLineInterface.i: src/ui/CommandLineInterface.cpp.i
+
+.PHONY : src/ui/CommandLineInterface.i
+
+# target to preprocess a source file
+src/ui/CommandLineInterface.cpp.i:
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.i
+.PHONY : src/ui/CommandLineInterface.cpp.i
+
+src/ui/CommandLineInterface.s: src/ui/CommandLineInterface.cpp.s
+
+.PHONY : src/ui/CommandLineInterface.s
+
+# target to generate assembly for a file
+src/ui/CommandLineInterface.cpp.s:
+	$(MAKE) -f CMakeFiles\pea.dir\build.make CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.s
+.PHONY : src/ui/CommandLineInterface.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -302,15 +302,15 @@ help:
 	@echo ... src/algorithms/tabusearch/TabuSearch.obj
 	@echo ... src/algorithms/tabusearch/TabuSearch.i
 	@echo ... src/algorithms/tabusearch/TabuSearch.s
-	@echo ... src/algorithms/ui/CommandLineInterface.obj
-	@echo ... src/algorithms/ui/CommandLineInterface.i
-	@echo ... src/algorithms/ui/CommandLineInterface.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
 	@echo ... src/threading/ThreadManager.obj
 	@echo ... src/threading/ThreadManager.i
 	@echo ... src/threading/ThreadManager.s
+	@echo ... src/ui/CommandLineInterface.obj
+	@echo ... src/ui/CommandLineInterface.i
+	@echo ... src/ui/CommandLineInterface.s
 .PHONY : help
 
 

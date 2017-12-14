@@ -11,7 +11,7 @@ class GreedyAlgorithm
 private:
 	std::vector<unsigned> getClosestCity(
 		const Map& map,
-		std::vector<size_t>& notVisited,
+		std::vector<unsigned>& notVisited,
 		const unsigned& start = 0 );
 
 	unsigned findMinElement(

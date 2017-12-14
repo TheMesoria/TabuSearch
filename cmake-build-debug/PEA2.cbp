@@ -34,6 +34,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
 					<Add directory="D:/Depos/MinGW/include"/>
 					<Add directory="d:\depos\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
 					<Add directory="d:\depos\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/i686-w64-mingw32"/>
@@ -56,6 +57,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
 					<Add directory="D:/Depos/MinGW/include"/>
 					<Add directory="d:\depos\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
 					<Add directory="d:\depos\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/i686-w64-mingw32"/>
@@ -100,12 +102,6 @@
 		<Unit filename="D:/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.hpp">
 			<Option target="pea"/>
 		</Unit>
-		<Unit filename="D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.cpp">
-			<Option target="pea"/>
-		</Unit>
-		<Unit filename="D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.hpp">
-			<Option target="pea"/>
-		</Unit>
 		<Unit filename="D:/Projects/PEA2/src/main.cpp">
 			<Option target="pea"/>
 		</Unit>
@@ -113,6 +109,12 @@
 			<Option target="pea"/>
 		</Unit>
 		<Unit filename="D:/Projects/PEA2/src/threading/ThreadManager.hpp">
+			<Option target="pea"/>
+		</Unit>
+		<Unit filename="D:/Projects/PEA2/src/ui/CommandLineInterface.cpp">
+			<Option target="pea"/>
+		</Unit>
+		<Unit filename="D:/Projects/PEA2/src/ui/CommandLineInterface.hpp">
 			<Option target="pea"/>
 		</Unit>
 		<Unit filename="D:/Projects/PEA2/CMakeLists.txt">

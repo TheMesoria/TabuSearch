@@ -5,10 +5,7 @@
 #include "ThreadManager.hpp"
 #include "../FileLoader/FileLoader.hpp"
 #include "../algorithms/tabusearch/TabuSearch.hpp"
-#include <thread>
-#include <climits>
 #include <future>
-#include <iostream>
 
 ThreadManager::ThreadManager(unsigned int time, const string &path, double aspiration)
 		:
@@ -16,6 +13,8 @@ ThreadManager::ThreadManager(unsigned int time, const string &path, double aspir
 {
 	taskFinished_ = true;
 	taskForceFinish_ = false;
+	
+	tabuSize_=15;
 }
 ThreadManager::~ThreadManager()
 {
@@ -102,7 +101,7 @@ void ThreadManager::startProcess(ThreadManager* activeThreadManager)
 	fileLoader.addMap(activeThreadManager->getPath());
 	std::shared_ptr<Map> map = std::make_shared<Map>(fileLoader[0]);
 	TabuSearch tabuSearch(map,activeThreadManager);
-	
+	tabuSearch.Start();
 	std::cout << "Clearing resources." << std::endl;
 	
 	activeThreadManager->setTaskFinished(true);
@@ -118,4 +117,8 @@ const string &ThreadManager::getPath() const
 double ThreadManager::getAspiration() const
 {
 	return aspiration_;
+}
+unsigned int ThreadManager::getTabuSize() const
+{
+	return tabuSize_;
 }

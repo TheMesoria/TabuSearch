@@ -18,6 +18,8 @@ class TabuSearch
 	std::shared_ptr<Map> map_;
 	ThreadManager* threadManager_;
 	
+	unsigned tabuSize_;
+	
 	std::vector<unsigned> bestResult;
 	std::vector<unsigned> actualResult;
 	
@@ -25,8 +27,13 @@ class TabuSearch
 
 	
 	void greedyAlgorythm(std::vector<unsigned>* target) const;
+	unsigned getPathLength(const std::vector<unsigned> &path);
+	bool isInTabu(const unsigned &i, const unsigned &j);
+	void debugPrint(const std::vector<unsigned> &bug);
+	
 	void printToFile();
 public:
+	void Start();
 	TabuSearch(const std::shared_ptr<Map> &map, ThreadManager* threadManager);
 	virtual ~TabuSearch();
 };

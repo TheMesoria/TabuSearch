@@ -6,7 +6,7 @@
 #define PEA2_THREADMANAGER_HPP
 
 #include <mutex>
-#include "../algorithms/ui/CommandLineInterface.hpp"
+#include "../ui/CommandLineInterface.hpp"
 
 class ThreadManager
 {
@@ -17,18 +17,22 @@ class ThreadManager
 	std::mutex taskForceFinishMutex_;
 	
 	unsigned time_;
-	string path_;
+	unsigned tabuSize_;
 	double aspiration_;
-
+	
+private:
+	string path_;
 	bool subdueProcess();
+	
 	bool controlInput();
-	
 public:
-	static void startProcess(ThreadManager* activeThreadManager);
 	
+	static void startProcess(ThreadManager* activeThreadManager);
 	unsigned int getTime() const;
+	
 	const string &getPath() const;
 	double getAspiration() const;
+	unsigned int getTabuSize() const;
 	
 	bool isTaskFinished();
 	void setTaskFinished(bool taskFinished);

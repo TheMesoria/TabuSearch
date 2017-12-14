@@ -7,9 +7,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/d/Projects/PEA2/src/FileLoader/FileLoader.cpp" "/mnt/d/Projects/PEA2/cmake/CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.o"
   "/mnt/d/Projects/PEA2/src/algorithms/GreedyAlg/GreedyAlg.cpp" "/mnt/d/Projects/PEA2/cmake/CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.o"
   "/mnt/d/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.cpp" "/mnt/d/Projects/PEA2/cmake/CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.o"
-  "/mnt/d/Projects/PEA2/src/algorithms/ui/CommandLineInterface.cpp" "/mnt/d/Projects/PEA2/cmake/CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.o"
   "/mnt/d/Projects/PEA2/src/main.cpp" "/mnt/d/Projects/PEA2/cmake/CMakeFiles/pea.dir/src/main.cpp.o"
   "/mnt/d/Projects/PEA2/src/threading/ThreadManager.cpp" "/mnt/d/Projects/PEA2/cmake/CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.o"
+  "/mnt/d/Projects/PEA2/src/ui/CommandLineInterface.cpp" "/mnt/d/Projects/PEA2/cmake/CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

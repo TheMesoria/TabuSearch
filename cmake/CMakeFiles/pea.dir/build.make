@@ -153,28 +153,28 @@ CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.o.provides: CMakeFiles/pea.di
 CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.o.provides.build: CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.o
 
 
-CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.o: CMakeFiles/pea.dir/flags.make
-CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.o: ../src/algorithms/ui/CommandLineInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/PEA2/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.o -c /mnt/d/Projects/PEA2/src/algorithms/ui/CommandLineInterface.cpp
+CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.o: CMakeFiles/pea.dir/flags.make
+CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.o: ../src/ui/CommandLineInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/PEA2/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.o -c /mnt/d/Projects/PEA2/src/ui/CommandLineInterface.cpp
 
-CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/PEA2/src/algorithms/ui/CommandLineInterface.cpp > CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.i
+CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/PEA2/src/ui/CommandLineInterface.cpp > CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.i
 
-CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/PEA2/src/algorithms/ui/CommandLineInterface.cpp -o CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.s
+CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/PEA2/src/ui/CommandLineInterface.cpp -o CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.s
 
-CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.o.requires:
+CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.o.requires:
 
-.PHONY : CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.o.requires
+.PHONY : CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.o.requires
 
-CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.o.provides: CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.o.requires
-	$(MAKE) -f CMakeFiles/pea.dir/build.make CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.o.provides.build
-.PHONY : CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.o.provides
+CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.o.provides: CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.o.requires
+	$(MAKE) -f CMakeFiles/pea.dir/build.make CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.o.provides.build
+.PHONY : CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.o.provides
 
-CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.o.provides.build: CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.o
+CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.o.provides.build: CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.o
 
 
 CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.o: CMakeFiles/pea.dir/flags.make
@@ -207,7 +207,7 @@ pea_OBJECTS = \
 "CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.o" \
 "CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.o" \
 "CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.o" \
-"CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.o" \
+"CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.o" \
 "CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.o"
 
 # External object files for target pea
@@ -217,7 +217,7 @@ pea: CMakeFiles/pea.dir/src/main.cpp.o
 pea: CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.o
 pea: CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.o
 pea: CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.o
-pea: CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.o
+pea: CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.o
 pea: CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.o
 pea: CMakeFiles/pea.dir/build.make
 pea: CMakeFiles/pea.dir/link.txt
@@ -233,7 +233,7 @@ CMakeFiles/pea.dir/requires: CMakeFiles/pea.dir/src/main.cpp.o.requires
 CMakeFiles/pea.dir/requires: CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.o.requires
 CMakeFiles/pea.dir/requires: CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.o.requires
 CMakeFiles/pea.dir/requires: CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.o.requires
-CMakeFiles/pea.dir/requires: CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.o.requires
+CMakeFiles/pea.dir/requires: CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.o.requires
 CMakeFiles/pea.dir/requires: CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.o.requires
 
 .PHONY : CMakeFiles/pea.dir/requires

@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include "CommandLineInterface.hpp"
-#include "../../threading/ThreadManager.hpp"
+#include "../threading/ThreadManager.hpp"
 
 int CommandLineInterface::Init()
 {
@@ -13,7 +13,7 @@ int CommandLineInterface::Init()
 }
 bool CommandLineInterface::makeDecision()
 {
-	static string path="../resources/a280.tsp";
+	static string path="../resources/wi29.tsp";
 	static double aspiration = 0.0;
 	static unsigned time=10;
 	drawUi(path,time, aspiration);

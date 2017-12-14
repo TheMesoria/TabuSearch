@@ -4,6 +4,8 @@ project(PEA2)
 set(CMAKE_CXX_STANDARD 17)
 find_package (Threads)
 
+add_definitions(-D_GLIBCXX_USE_CXX11_ABI=0)
+
 add_executable(
         pea
         src/main.cpp
@@ -13,8 +15,8 @@ add_executable(
         src/algorithms/tabusearch/TabuSearch.hpp
         src/threading/ThreadManager.cpp
         src/threading/ThreadManager.hpp
-        src/algorithms/ui/CommandLineInterface.cpp
-        src/algorithms/ui/CommandLineInterface.hpp
+        src/ui/CommandLineInterface.cpp
+        src/ui/CommandLineInterface.hpp
         src/algorithms/GreedyAlg/GreedyAlg.cpp
         src/algorithms/GreedyAlg/GreedyAlg.hpp
 )

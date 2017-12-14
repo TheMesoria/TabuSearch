@@ -1,6 +1,5 @@
 #include <iostream>
-#include "algorithms/ui/CommandLineInterface.hpp"
-#include "FileLoader/FileLoader.hpp"
+#include "ui/CommandLineInterface.hpp"
 
 int main() 
 {

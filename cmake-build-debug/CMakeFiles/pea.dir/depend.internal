@@ -13,19 +13,18 @@ CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj
  D:/Projects/PEA2/src/algorithms/GreedyAlg/GreedyAlg.hpp
  D:/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.cpp
  D:/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.hpp
- D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.hpp
  D:/Projects/PEA2/src/threading/ThreadManager.hpp
-CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.obj
- D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.cpp
- D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.hpp
- D:/Projects/PEA2/src/threading/ThreadManager.hpp
+ D:/Projects/PEA2/src/ui/CommandLineInterface.hpp
 CMakeFiles/pea.dir/src/main.cpp.obj
- D:/Projects/PEA2/src/FileLoader/FileLoader.hpp
- D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.hpp
  D:/Projects/PEA2/src/main.cpp
+ D:/Projects/PEA2/src/ui/CommandLineInterface.hpp
 CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj
  D:/Projects/PEA2/src/FileLoader/FileLoader.hpp
  D:/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.hpp
- D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.hpp
  D:/Projects/PEA2/src/threading/ThreadManager.cpp
  D:/Projects/PEA2/src/threading/ThreadManager.hpp
+ D:/Projects/PEA2/src/ui/CommandLineInterface.hpp
+CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.obj
+ D:/Projects/PEA2/src/threading/ThreadManager.hpp
+ D:/Projects/PEA2/src/ui/CommandLineInterface.cpp
+ D:/Projects/PEA2/src/ui/CommandLineInterface.hpp

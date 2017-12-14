@@ -187,12 +187,6 @@ PEA2_BINARY_DIR:STATIC=/mnt/d/Projects/PEA2/cmake
 //Value Computed by CMake
 PEA2_SOURCE_DIR:STATIC=/mnt/d/Projects/PEA2
 
-//Value Computed by CMake
-pea_BINARY_DIR:STATIC=/mnt/d/Projects/PEA2/cmake
-
-//Value Computed by CMake
-pea_SOURCE_DIR:STATIC=/mnt/d/Projects/PEA2
-
 
 ########################
 # INTERNAL cache entries

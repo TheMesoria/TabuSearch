@@ -4,7 +4,7 @@
 # compile CXX with D:/Depos/MinGW/bin/g++.exe
 CXX_FLAGS = -g   -std=gnu++1y
 
-CXX_DEFINES = 
+CXX_DEFINES = -D_GLIBCXX_USE_CXX11_ABI=0
 
 CXX_INCLUDES = 
 

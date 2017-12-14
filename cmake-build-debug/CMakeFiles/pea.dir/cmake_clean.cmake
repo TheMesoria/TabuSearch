@@ -3,7 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.obj"
   "CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.obj"
   "CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj"
-  "CMakeFiles/pea.dir/src/algorithms/ui/CommandLineInterface.cpp.obj"
+  "CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.obj"
   "CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.obj"
   "pea.pdb"
   "pea.exe"

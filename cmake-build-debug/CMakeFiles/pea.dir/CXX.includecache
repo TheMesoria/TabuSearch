@@ -27,13 +27,7 @@ memory
 D:/Projects/PEA2/src/algorithms/GreedyAlg/GreedyAlg.cpp
 GreedyAlg.hpp
 D:/Projects/PEA2/src/algorithms/GreedyAlg/GreedyAlg.hpp
-stdio.h
--
-algorithm
--
 iostream
--
-vector
 -
 
 D:/Projects/PEA2/src/algorithms/GreedyAlg/GreedyAlg.hpp
@@ -72,25 +66,11 @@ D:/Projects/PEA2/src/FileLoader/FileLoader.hpp
 ../../threading/ThreadManager.hpp
 D:/Projects/PEA2/src/threading/ThreadManager.hpp
 
-D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.cpp
-iostream
--
-CommandLineInterface.hpp
-D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.hpp
-../../threading/ThreadManager.hpp
-D:/Projects/PEA2/src/threading/ThreadManager.hpp
-
-D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.hpp
-string
--
-
 D:/Projects/PEA2/src/main.cpp
 iostream
 -
-algorithms/ui/CommandLineInterface.hpp
-D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.hpp
-FileLoader/FileLoader.hpp
-D:/Projects/PEA2/src/FileLoader/FileLoader.hpp
+ui/CommandLineInterface.hpp
+D:/Projects/PEA2/src/ui/CommandLineInterface.hpp
 
 D:/Projects/PEA2/src/threading/ThreadManager.cpp
 ThreadManager.hpp
@@ -99,18 +79,24 @@ D:/Projects/PEA2/src/threading/ThreadManager.hpp
 D:/Projects/PEA2/src/FileLoader/FileLoader.hpp
 ../algorithms/tabusearch/TabuSearch.hpp
 D:/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.hpp
-thread
--
-climits
--
 future
--
-iostream
 -
 
 D:/Projects/PEA2/src/threading/ThreadManager.hpp
 mutex
 -
-../algorithms/ui/CommandLineInterface.hpp
-D:/Projects/PEA2/src/algorithms/ui/CommandLineInterface.hpp
+../ui/CommandLineInterface.hpp
+D:/Projects/PEA2/src/ui/CommandLineInterface.hpp
+
+D:/Projects/PEA2/src/ui/CommandLineInterface.cpp
+iostream
+-
+CommandLineInterface.hpp
+D:/Projects/PEA2/src/ui/CommandLineInterface.hpp
+../threading/ThreadManager.hpp
+D:/Projects/PEA2/src/threading/ThreadManager.hpp
+
+D:/Projects/PEA2/src/ui/CommandLineInterface.hpp
+string
+-
 
