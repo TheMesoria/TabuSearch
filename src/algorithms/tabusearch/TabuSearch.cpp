@@ -20,6 +20,9 @@ TabuSearch::TabuSearch(const std::shared_ptr<Map> &map, ThreadManager *threadMan
 	greedyAlgorythm(&bestResult);
 	greedyAlgorythm(&actualResult);
 	
+	debugPrint(actualResult);
+	std::cout << "Greedy offered : " << getPathLength(actualResult) <<"\n\n\n";
+	
 	for (int i = 0; i < threadManager->getTabuSize()-1 ; ++i){ tabuList.push_back({0,0, static_cast<unsigned>(INFINITY)}); }
 	tabuList.push_back({0,0,getPathLength(bestResult)});
 }
@@ -56,7 +59,15 @@ void TabuSearch::printToFile()
 void TabuSearch::greedyAlgorythm(std::vector<unsigned>* target) const
 {
 	GreedyAlgorithm greedyAlgorithm;
-	*target=greedyAlgorithm(0,*map_.get());
+	//auto ret = greedyAlgorithm(0,*map_.get());
+	//ret.push_back(ret.front());
+	std::vector<unsigned> ret;
+	for (int i = 0; i < map_.get()->size(); ++i)
+	{
+		ret.push_back(i);
+	}
+	
+	*target=ret;
 }
 
 void TabuSearch::Start()
@@ -133,11 +144,12 @@ void TabuSearch::Start()
 			aspirationValue = static_cast<unsigned>(floor(currentElement[2]+currentElement[2]*threadManager_->getAspiration()));
 			tabuList.push_back({currentElement[1],currentElement[0],currentElement[2]});
 			//-------------------------------------------
-			std::cout <<
+			/*std::cout <<
 					  std::setw(10) << std::left << currentElement[0] <<
 					  std::setw(10) << std::left << currentElement[1] <<
 					  std::setw(10) << std::left << currentElement[2] <<
 					  std::setw(10) << std::left << it << std::endl;
+					  */
 		}
 		else
 		{

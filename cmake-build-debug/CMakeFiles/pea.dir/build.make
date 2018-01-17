@@ -33,10 +33,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\freed\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.3727.114\bin\cmake\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\freed\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.4127.32\bin\cmake\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\freed\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.3727.114\bin\cmake\bin\cmake.exe -E remove -f
+RM = C:\Users\freed\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.4127.32\bin\cmake\bin\cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,15 +59,15 @@ include CMakeFiles/pea.dir/flags.make
 CMakeFiles/pea.dir/src/main.cpp.obj: CMakeFiles/pea.dir/flags.make
 CMakeFiles/pea.dir/src/main.cpp.obj: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\PEA2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pea.dir/src/main.cpp.obj"
-	D:\Depos\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pea.dir\src\main.cpp.obj -c D:\Projects\PEA2\src\main.cpp
+	D:\Depos\MinGW\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pea.dir\src\main.cpp.obj -c D:\Projects\PEA2\src\main.cpp
 
 CMakeFiles/pea.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pea.dir/src/main.cpp.i"
-	D:\Depos\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\PEA2\src\main.cpp > CMakeFiles\pea.dir\src\main.cpp.i
+	D:\Depos\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\PEA2\src\main.cpp > CMakeFiles\pea.dir\src\main.cpp.i
 
 CMakeFiles/pea.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pea.dir/src/main.cpp.s"
-	D:\Depos\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\PEA2\src\main.cpp -o CMakeFiles\pea.dir\src\main.cpp.s
+	D:\Depos\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\PEA2\src\main.cpp -o CMakeFiles\pea.dir\src\main.cpp.s
 
 CMakeFiles/pea.dir/src/main.cpp.obj.requires:
 
@@ -83,15 +83,15 @@ CMakeFiles/pea.dir/src/main.cpp.obj.provides.build: CMakeFiles/pea.dir/src/main.
 CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.obj: CMakeFiles/pea.dir/flags.make
 CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.obj: ../src/FileLoader/FileLoader.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\PEA2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.obj"
-	D:\Depos\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pea.dir\src\FileLoader\FileLoader.cpp.obj -c D:\Projects\PEA2\src\FileLoader\FileLoader.cpp
+	D:\Depos\MinGW\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pea.dir\src\FileLoader\FileLoader.cpp.obj -c D:\Projects\PEA2\src\FileLoader\FileLoader.cpp
 
 CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.i"
-	D:\Depos\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\PEA2\src\FileLoader\FileLoader.cpp > CMakeFiles\pea.dir\src\FileLoader\FileLoader.cpp.i
+	D:\Depos\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\PEA2\src\FileLoader\FileLoader.cpp > CMakeFiles\pea.dir\src\FileLoader\FileLoader.cpp.i
 
 CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.s"
-	D:\Depos\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\PEA2\src\FileLoader\FileLoader.cpp -o CMakeFiles\pea.dir\src\FileLoader\FileLoader.cpp.s
+	D:\Depos\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\PEA2\src\FileLoader\FileLoader.cpp -o CMakeFiles\pea.dir\src\FileLoader\FileLoader.cpp.s
 
 CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.obj.requires:
 
@@ -107,15 +107,15 @@ CMakeFiles/pea.dir/src/FileLoader/FileLoader.cpp.obj.provides.build: CMakeFiles/
 CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.obj: CMakeFiles/pea.dir/flags.make
 CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.obj: ../src/algorithms/tabusearch/TabuSearch.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\PEA2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.obj"
-	D:\Depos\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pea.dir\src\algorithms\tabusearch\TabuSearch.cpp.obj -c D:\Projects\PEA2\src\algorithms\tabusearch\TabuSearch.cpp
+	D:\Depos\MinGW\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pea.dir\src\algorithms\tabusearch\TabuSearch.cpp.obj -c D:\Projects\PEA2\src\algorithms\tabusearch\TabuSearch.cpp
 
 CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.i"
-	D:\Depos\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\PEA2\src\algorithms\tabusearch\TabuSearch.cpp > CMakeFiles\pea.dir\src\algorithms\tabusearch\TabuSearch.cpp.i
+	D:\Depos\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\PEA2\src\algorithms\tabusearch\TabuSearch.cpp > CMakeFiles\pea.dir\src\algorithms\tabusearch\TabuSearch.cpp.i
 
 CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.s"
-	D:\Depos\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\PEA2\src\algorithms\tabusearch\TabuSearch.cpp -o CMakeFiles\pea.dir\src\algorithms\tabusearch\TabuSearch.cpp.s
+	D:\Depos\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\PEA2\src\algorithms\tabusearch\TabuSearch.cpp -o CMakeFiles\pea.dir\src\algorithms\tabusearch\TabuSearch.cpp.s
 
 CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.obj.requires:
 
@@ -131,15 +131,15 @@ CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.obj.provides.build: 
 CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj: CMakeFiles/pea.dir/flags.make
 CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj: ../src/threading/ThreadManager.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\PEA2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj"
-	D:\Depos\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pea.dir\src\threading\ThreadManager.cpp.obj -c D:\Projects\PEA2\src\threading\ThreadManager.cpp
+	D:\Depos\MinGW\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pea.dir\src\threading\ThreadManager.cpp.obj -c D:\Projects\PEA2\src\threading\ThreadManager.cpp
 
 CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.i"
-	D:\Depos\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\PEA2\src\threading\ThreadManager.cpp > CMakeFiles\pea.dir\src\threading\ThreadManager.cpp.i
+	D:\Depos\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\PEA2\src\threading\ThreadManager.cpp > CMakeFiles\pea.dir\src\threading\ThreadManager.cpp.i
 
 CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.s"
-	D:\Depos\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\PEA2\src\threading\ThreadManager.cpp -o CMakeFiles\pea.dir\src\threading\ThreadManager.cpp.s
+	D:\Depos\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\PEA2\src\threading\ThreadManager.cpp -o CMakeFiles\pea.dir\src\threading\ThreadManager.cpp.s
 
 CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj.requires:
 
@@ -155,15 +155,15 @@ CMakeFiles/pea.dir/src/threading/ThreadManager.cpp.obj.provides.build: CMakeFile
 CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.obj: CMakeFiles/pea.dir/flags.make
 CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.obj: ../src/ui/CommandLineInterface.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\PEA2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.obj"
-	D:\Depos\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pea.dir\src\ui\CommandLineInterface.cpp.obj -c D:\Projects\PEA2\src\ui\CommandLineInterface.cpp
+	D:\Depos\MinGW\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pea.dir\src\ui\CommandLineInterface.cpp.obj -c D:\Projects\PEA2\src\ui\CommandLineInterface.cpp
 
 CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.i"
-	D:\Depos\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\PEA2\src\ui\CommandLineInterface.cpp > CMakeFiles\pea.dir\src\ui\CommandLineInterface.cpp.i
+	D:\Depos\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\PEA2\src\ui\CommandLineInterface.cpp > CMakeFiles\pea.dir\src\ui\CommandLineInterface.cpp.i
 
 CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.s"
-	D:\Depos\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\PEA2\src\ui\CommandLineInterface.cpp -o CMakeFiles\pea.dir\src\ui\CommandLineInterface.cpp.s
+	D:\Depos\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\PEA2\src\ui\CommandLineInterface.cpp -o CMakeFiles\pea.dir\src\ui\CommandLineInterface.cpp.s
 
 CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.obj.requires:
 
@@ -179,15 +179,15 @@ CMakeFiles/pea.dir/src/ui/CommandLineInterface.cpp.obj.provides.build: CMakeFile
 CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.obj: CMakeFiles/pea.dir/flags.make
 CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.obj: ../src/algorithms/GreedyAlg/GreedyAlg.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\PEA2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.obj"
-	D:\Depos\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pea.dir\src\algorithms\GreedyAlg\GreedyAlg.cpp.obj -c D:\Projects\PEA2\src\algorithms\GreedyAlg\GreedyAlg.cpp
+	D:\Depos\MinGW\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\pea.dir\src\algorithms\GreedyAlg\GreedyAlg.cpp.obj -c D:\Projects\PEA2\src\algorithms\GreedyAlg\GreedyAlg.cpp
 
 CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.i"
-	D:\Depos\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\PEA2\src\algorithms\GreedyAlg\GreedyAlg.cpp > CMakeFiles\pea.dir\src\algorithms\GreedyAlg\GreedyAlg.cpp.i
+	D:\Depos\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\PEA2\src\algorithms\GreedyAlg\GreedyAlg.cpp > CMakeFiles\pea.dir\src\algorithms\GreedyAlg\GreedyAlg.cpp.i
 
 CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.s"
-	D:\Depos\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\PEA2\src\algorithms\GreedyAlg\GreedyAlg.cpp -o CMakeFiles\pea.dir\src\algorithms\GreedyAlg\GreedyAlg.cpp.s
+	D:\Depos\MinGW\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projects\PEA2\src\algorithms\GreedyAlg\GreedyAlg.cpp -o CMakeFiles\pea.dir\src\algorithms\GreedyAlg\GreedyAlg.cpp.s
 
 CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.obj.requires:
 

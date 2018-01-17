@@ -11,20 +11,20 @@
 				<Option working_dir="D:/Projects/PEA2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Depos/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/Depos/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Depos/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Depos/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Depos/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Depos/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Depos/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Depos/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="D:/Projects/PEA2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Depos/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/Depos/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Depos/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Depos/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Depos/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Depos/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Depos/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Depos/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pea">
@@ -35,19 +35,18 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
-					<Add directory="D:/Depos/MinGW/include"/>
-					<Add directory="d:\depos\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
-					<Add directory="d:\depos\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/i686-w64-mingw32"/>
-					<Add directory="d:\depos\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
-					<Add directory="d:\depos\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include"/>
-					<Add directory="d:\depos\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include-fixed"/>
-					<Add directory="d:\depos\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/include"/>
+					<Add directory="D:/Depos/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include/c++"/>
+					<Add directory="D:/Depos/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="D:/Depos/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include/c++/backward"/>
+					<Add directory="D:/Depos/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="D:/Depos/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="D:/Depos/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Depos/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 pea"/>
-					<CompileFile command="D:/Depos/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Depos/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Depos/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Depos/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 pea"/>
+					<CompileFile command="D:/Depos/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Depos/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Depos/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pea/fast">
@@ -58,29 +57,28 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-D_GLIBCXX_USE_CXX11_ABI=0"/>
-					<Add directory="D:/Depos/MinGW/include"/>
-					<Add directory="d:\depos\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
-					<Add directory="d:\depos\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/i686-w64-mingw32"/>
-					<Add directory="d:\depos\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
-					<Add directory="d:\depos\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include"/>
-					<Add directory="d:\depos\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/include-fixed"/>
-					<Add directory="d:\depos\mingw\bin\../lib/gcc/i686-w64-mingw32/4.8.3/../../../../i686-w64-mingw32/include"/>
+					<Add directory="D:/Depos/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include/c++"/>
+					<Add directory="D:/Depos/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="D:/Depos/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include/c++/backward"/>
+					<Add directory="D:/Depos/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="D:/Depos/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="D:/Depos/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Depos/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 pea/fast"/>
-					<CompileFile command="D:/Depos/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Depos/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Depos/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Depos/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 pea/fast"/>
+					<CompileFile command="D:/Depos/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Depos/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Depos/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="D:/Projects/PEA2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Depos/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/Depos/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Depos/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Depos/MinGW/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Depos/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Depos/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Depos/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Depos/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/Projects/PEA2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>

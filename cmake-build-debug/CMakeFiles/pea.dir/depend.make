@@ -8,12 +8,12 @@ CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.obj: ../src/FileLoader
 CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.obj: ../src/algorithms/GreedyAlg/GreedyAlg.cpp
 CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.obj: ../src/algorithms/GreedyAlg/GreedyAlg.hpp
 
-CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/FileLoader/FileLoader.hpp
-CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/algorithms/GreedyAlg/GreedyAlg.hpp
-CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/algorithms/tabusearch/TabuSearch.cpp
-CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/algorithms/tabusearch/TabuSearch.hpp
-CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/threading/ThreadManager.hpp
-CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj: ../src/ui/CommandLineInterface.hpp
+CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.obj: ../src/FileLoader/FileLoader.hpp
+CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.obj: ../src/algorithms/GreedyAlg/GreedyAlg.hpp
+CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.obj: ../src/algorithms/tabusearch/TabuSearch.cpp
+CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.obj: ../src/algorithms/tabusearch/TabuSearch.hpp
+CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.obj: ../src/threading/ThreadManager.hpp
+CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.obj: ../src/ui/CommandLineInterface.hpp
 
 CMakeFiles/pea.dir/src/main.cpp.obj: ../src/main.cpp
 CMakeFiles/pea.dir/src/main.cpp.obj: ../src/ui/CommandLineInterface.hpp

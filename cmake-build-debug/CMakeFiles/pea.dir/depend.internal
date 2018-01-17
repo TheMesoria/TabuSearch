@@ -8,7 +8,7 @@ CMakeFiles/pea.dir/src/algorithms/GreedyAlg/GreedyAlg.cpp.obj
  D:/Projects/PEA2/src/FileLoader/FileLoader.hpp
  D:/Projects/PEA2/src/algorithms/GreedyAlg/GreedyAlg.cpp
  D:/Projects/PEA2/src/algorithms/GreedyAlg/GreedyAlg.hpp
-CMakeFiles/pea.dir/src/algorithms/TabuSearch/TabuSearch.cpp.obj
+CMakeFiles/pea.dir/src/algorithms/tabusearch/TabuSearch.cpp.obj
  D:/Projects/PEA2/src/FileLoader/FileLoader.hpp
  D:/Projects/PEA2/src/algorithms/GreedyAlg/GreedyAlg.hpp
  D:/Projects/PEA2/src/algorithms/tabusearch/TabuSearch.cpp

@@ -1,0 +1,22 @@
+html, body {
+	tab-size: 4;
+}
+
+p {
+	text-align: justify;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+h6 {
+	text-align: center;
+	font-style: italic;
+	font-family: Times;
+}
